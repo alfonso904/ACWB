@@ -6,11 +6,6 @@ body.no-scroll {
   background-color: #262833;
 }
 
-
-.logo-desktop {
-  width: 20rem;
-}
-
 @media only screen and (min-width: 768px) {
     .logo-mobile {
       display: none;
@@ -130,15 +125,11 @@ body.no-scroll {
 @media (max-width: 768px) {
 
 
-  .logo-desktop {
-    display: none;
-  }
-
   .logo-mobile {
     width: 13rem;
     max-width: 17rem;
-    margin-left: 1rem;
     margin-top: 1rem;
+    margin-left: 0.5rem;
     padding-bottom: 1rem;
   }
 
