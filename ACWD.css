@@ -213,7 +213,6 @@ h1 {
   padding-bottom: 1rem;
   border-radius: 6px;
   font-size: .75rem;
-  border: 1px solid black;
 
 }
 
@@ -222,4 +221,9 @@ h1 {
   color: #D7D7D7;
   font-family: 'Nunito Sans', sans-serif;
 
+}
+
+.call-us-button:hover {
+  background-color: rgba(230, 230, 230, 0.788);
+  transition: 0.5s
 }
