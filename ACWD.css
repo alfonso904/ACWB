@@ -18,7 +18,7 @@ body.no-scroll {
 }
 
 .nav {
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: auto;
   z-index: 5;
@@ -123,41 +123,6 @@ body.no-scroll {
   margin-top: 0;
   transform: rotate(-45deg); 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
