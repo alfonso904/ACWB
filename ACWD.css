@@ -18,7 +18,7 @@ body.no-scroll {
 }
 
 .nav {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: auto;
   z-index: 5;
@@ -54,7 +54,8 @@ body.no-scroll {
 
 /* hamburger trigger */
 .nav__trigger {
-  position: fixed;
+  position: absolute;
+  display: inline-flex;
   display: none;
   width: 30px;
   height: 25px;
