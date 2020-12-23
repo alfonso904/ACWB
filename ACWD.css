@@ -38,13 +38,13 @@ body.no-scroll {
 .nav__link {
   font-size: 1.5em;
   text-decoration: none;
-  color: #f7faff;
+  color: #D7D7D7;
   opacity: 1;
   transition: opacity 0.5s ease-in-out; 
 }
 
 .nav__link:hover {
-  color: #f7faff; 
+  color: #D7D7D7;
 }
 
 /* hamburger trigger */
@@ -164,4 +164,62 @@ body.no-scroll {
   .nav__link {
     opacity: 0;
   } 
+}
+
+
+
+/*******************
+LANDING
+
+********************/
+
+
+.main-landing-page {
+  background-color: #11275F;
+  margin-top: -1.4rem;
+}
+
+h1 {
+  color: #D7D7D7;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
+  font-size: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 2rem;
+  padding-top: 3rem;
+
+}
+
+.landing-text {
+  color: #D7D7D7;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 2rem;
+
+}
+
+.call-us-button {
+  background-color: #4e4e4e;
+  border: none;
+  color: #D7D7D7;
+  margin-top: .5rem;
+  margin-bottom: 3rem;
+  margin-left: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 6px;
+  font-size: .75rem;
+  border: 1px solid black;
+
+}
+
+.call-us-anchor {
+  text-decoration: none;
+  color: #D7D7D7;
+  font-family: 'Nunito Sans', sans-serif;
+
 }
