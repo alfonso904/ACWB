@@ -178,7 +178,7 @@ LANDING
 .main-landing-page {
   background-color: #11275F;
   margin-top: -1.4rem;
-  height: 40rem;
+  height: 45rem;
 }
 
 h1 {
@@ -231,8 +231,9 @@ h1 {
 }
 
 .computer {
-  width: 60%;
+  width: 75%;
   margin-top: 4rem;
+
   right: 0;
   position: absolute;
   background-color: #11275F;
