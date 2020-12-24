@@ -187,9 +187,9 @@ LANDING
 }
 
 .landing-header {
-  color: #f1f1f1;
+  color: #DBDBDB;
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 2rem;
   margin-left: 1.5rem;
   margin-right: 6rem;
@@ -198,9 +198,9 @@ LANDING
 }
 
 .landing-text {
-  color: #ffffff;
+  color: #DBDBDB;
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 1rem;
   margin-left: 1.5rem;
   margin-right: 6rem;
