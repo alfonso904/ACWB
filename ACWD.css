@@ -280,6 +280,13 @@ LANDING
   justify-content: center;
 }
 
+.title-small-pic {
+  display: flex;
+  margin: auto;
+  width: 2rem;
+  margin-bottom: 1rem;
+}
+
 
 .what-we-do-text {
   text-align: center;
@@ -401,7 +408,7 @@ LANDING
   font-size: 1.75rem;
   margin: auto;
   padding-top: 4rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
   display: flex;
   justify-content: center;
 }
