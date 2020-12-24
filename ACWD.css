@@ -187,9 +187,9 @@ LANDING
 }
 
 .landing-header {
-  color: #D7D7D7;
+  color: #f1f1f1;
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 2rem;
   margin-left: 1.5rem;
   margin-right: 6rem;
@@ -198,9 +198,9 @@ LANDING
 }
 
 .landing-text {
-  color: #D7D7D7;
+  color: #ffffff;
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 1rem;
   margin-left: 1.5rem;
   margin-right: 6rem;
@@ -209,7 +209,7 @@ LANDING
 }
 
 .call-us-button {
-  background-color: #ecebebdc;
+  background-color: #ecebeb;
   border: none;
   color: #D7D7D7;
   margin-top: .5rem;
@@ -226,13 +226,13 @@ LANDING
 
 .call-us-anchor {
   text-decoration: none;
-  color: #262833;
+  color: #2c2c2cea;
   font-family: 'Nunito Sans', sans-serif;
 
 }
 
 .call-us-button:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(192, 192, 192);
   transition: 0.5s
 }
 
@@ -299,12 +299,13 @@ LANDING
 .what-we-do-subsections {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 800;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   margin: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
   display: flex;
   justify-content: center;
+  color: #2c2c2cea;
 }
 
 .what-we-do-pic {
@@ -327,7 +328,7 @@ LANDING
 
 .pricing-titles {
   font-weight: 900;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   margin-left: 1.5rem;
   margin-right: 6rem;
   max-width: 70%;
@@ -338,8 +339,8 @@ LANDING
 .pricing-text {
   width: 70%;
   line-height: 1.5rem;
-  color: #262833;
-  font-weight: 200;
+  color: #4b4b4be0;
+  font-weight: 300;
   margin-left: 1.5rem;
   margin-right: 6rem;
 }
@@ -366,14 +367,15 @@ LANDING
   margin-top: -.1rem;
   margin-left: 1rem;
   font-weight: 900;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
+  color: #2c2c2cea;
 }
 
 .pricing-block-text {
   width: 70%;
   line-height: 1.5rem;
-  color: #262833;
-  font-weight: 200;
+  color: #4b4b4be0;
+  font-weight: 300;
   margin-left: 5rem;
   margin-right: 6rem;
   margin-top: -0.6rem;
