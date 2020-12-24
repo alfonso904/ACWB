@@ -203,7 +203,7 @@ h1 {
 }
 
 .call-us-button {
-  background-color: #4e4e4e;
+  background-color: #ecebebdc;
   border: none;
   color: #D7D7D7;
   margin-top: .5rem;
@@ -220,13 +220,13 @@ h1 {
 
 .call-us-anchor {
   text-decoration: none;
-  color: #D7D7D7;
+  color: #262833;
   font-family: 'Nunito Sans', sans-serif;
 
 }
 
 .call-us-button:hover {
-  background-color: rgba(230, 230, 230, 0.788);
+  background-color: rgb(255, 255, 255);
   transition: 0.5s
 }
 
