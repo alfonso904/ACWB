@@ -1,5 +1,6 @@
 * {
   letter-spacing: 1.5px;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 body.no-scroll {
@@ -261,4 +262,15 @@ h1 {
   top: 15;
   display: inline-block;
   
+}
+
+.what-we-do-block {
+  display: flex;
+  margin-top: -10rem;
+}
+
+.what-we-do {
+  margin: auto;
+  font-size: 2rem;
+  font-weight: 900;
 }
