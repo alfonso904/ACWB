@@ -301,8 +301,15 @@ LANDING
   font-weight: 800;
   font-size: 1.1rem;
   margin: auto;
-  padding-top: 3rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   display: flex;
   justify-content: center;
+}
+
+.what-we-do-pic {
+  width: 15%;
+  margin: auto;
+  display: flex;
+  margin-top: 3rem;
 }
