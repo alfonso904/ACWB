@@ -331,6 +331,7 @@ LANDING
   margin-left: 1.5rem;
   margin-right: 6rem;
   max-width: 70%;
+  margin-bottom: 1.5rem;
   
 }
 
@@ -341,6 +342,10 @@ LANDING
   font-weight: 200;
   margin-left: 1.5rem;
   margin-right: 6rem;
+}
+
+.pricing-block-list {
+  margin-top: 2rem;
 }
 
 .pricing-block-span-list {
@@ -371,7 +376,7 @@ LANDING
   font-weight: 200;
   margin-left: 5rem;
   margin-right: 6rem;
-  margin-top: -.5rem;
+  margin-top: -0.6rem;
 }
 
 
@@ -391,12 +396,12 @@ LANDING
 }
 
 .dot2 {
-  height: 60%;
-  width: 60%;
+  height: 65%;
+  width: 65%;
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   margin-bottom: 1rem;
   display: flex;
 
