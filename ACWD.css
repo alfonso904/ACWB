@@ -178,6 +178,7 @@ LANDING
 .main-landing-page {
   background-color: #11275F;
   margin-top: -1.4rem;
+  height: 40rem;
 }
 
 h1 {
@@ -227,4 +228,17 @@ h1 {
 .call-us-button:hover {
   background-color: rgba(230, 230, 230, 0.788);
   transition: 0.5s
+}
+
+.computer {
+  width: 60%;
+  margin-top: 4rem;
+  right: 0;
+  position: absolute;
+  background-color: #11275F;
+
+
+
+
+
 }
