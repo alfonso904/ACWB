@@ -280,11 +280,35 @@ LANDING
   justify-content: center;
 }
 
+.small-pic-block, .title-small-pic-div {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.small-pic-dash-left {
+  display: inline-flex;
+  white-space: nowrap;
+  color: #11275F;
+  position: relative;
+  bottom: .5rem;
+  
+  
+}
+
+.small-pic-dash-right {
+  display: inline-flex;
+  white-space: nowrap;
+  color: #11275F;
+  position: relative;
+  bottom: .5rem;
+  
+}
+
 .title-small-pic {
-  display: flex;
-  margin: auto;
+  display: inline-flex;
   width: 2rem;
-  margin-bottom: 1rem;
+  height: 2rem;
 }
 
 
