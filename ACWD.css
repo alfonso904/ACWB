@@ -164,7 +164,7 @@ body.no-scroll {
   .nav__link {
     opacity: 0;
   } 
-  
+
 }
 
 
@@ -178,9 +178,6 @@ LANDING
 .main-landing-page {
   background-color: #11275F;
   margin-top: -1.4rem;
-  border-left: 90px solid #0d1d46;
-  border-bottom: 100px solid transparent;
-  border-top: 100px solid transparent;
 }
 
 h1 {
@@ -189,7 +186,7 @@ h1 {
   font-weight: 200;
   font-size: 2rem;
   margin-left: 1.5rem;
-  margin-right: 2rem;
+  margin-right: 6rem;
 
 }
 
@@ -199,7 +196,7 @@ h1 {
   font-weight: 200;
   font-size: 1rem;
   margin-left: 1.5rem;
-  margin-right: 2rem;
+  margin-right: 6rem;
 
 }
 
