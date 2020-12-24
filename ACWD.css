@@ -286,7 +286,7 @@ LANDING
   width: 100%;
 }
 
-.small-pic-dash-left {
+.small-pic-dash-left, .small-pic-dash-left-first {
   display: inline-flex;
   white-space: nowrap;
   color: #11275F;
@@ -296,13 +296,18 @@ LANDING
   
 }
 
-.small-pic-dash-right {
+.small-pic-dash-right, .small-pic-dash-right-first {
   display: inline-flex;
   white-space: nowrap;
   color: #11275F;
   position: relative;
   bottom: .5rem;
   
+}
+
+.small-pic-dash-right-first, .small-pic-dash-left-first {
+  position: relative;
+  bottom: .75rem;
 }
 
 .title-small-pic {
