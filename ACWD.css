@@ -290,3 +290,19 @@ LANDING
   font-weight: 200;
 
 }
+
+.what-we-do-block2, .what-we-do-block3, .what-we-do-block3, .what-we-do-block4 {
+  width: 100%;
+  
+}
+
+.what-we-do-subsections {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 800;
+  font-size: 1.1rem;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
