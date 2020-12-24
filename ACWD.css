@@ -309,7 +309,37 @@ LANDING
 
 .what-we-do-pic {
   width: 15%;
+  max-width: 5rem;
   margin: auto;
   display: flex;
   margin-top: 3rem;
+}
+
+
+.money-icon {
+  width: 80%;
+  max-width: 45rem;
+  padding-top: 4rem;
+  margin: auto;
+  display: flex;
+
+}
+
+.pricing-titles {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 900;
+  font-size: 1.1rem;
+  margin-left: 1.5rem;
+  margin-right: 6rem;
+  max-width: 70%;
+  
+}
+
+.pricing-text {
+  width: 70%;
+  line-height: 1.5rem;
+  color: #262833;
+  font-weight: 200;
+  margin-left: 1.5rem;
+  margin-right: 6rem;
 }
