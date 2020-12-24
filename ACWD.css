@@ -186,7 +186,7 @@ LANDING
   height: 45rem;
 }
 
-h1 {
+.landing-header {
   color: #D7D7D7;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 200;
@@ -265,12 +265,28 @@ h1 {
 }
 
 .what-we-do-block {
-  display: flex;
+  width: 100%;
   margin-top: -12rem;
 }
 
 .what-we-do {
-  margin: auto;
-  font-size: 1.5rem;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 900;
+  font-size: 1.75rem;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+.what-we-do-text {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  line-height: 1.5rem;
+  color: #262833;
+  font-weight: 200;
+
 }
