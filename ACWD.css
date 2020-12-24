@@ -326,7 +326,6 @@ LANDING
 }
 
 .pricing-titles {
-  font-family: 'Nunito Sans', sans-serif;
   font-weight: 900;
   font-size: 1.1rem;
   margin-left: 1.5rem;
@@ -342,4 +341,35 @@ LANDING
   font-weight: 200;
   margin-left: 1.5rem;
   margin-right: 6rem;
+}
+
+.pricing-block-span-list {
+  display: inline-flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 6rem;
+  max-width: 70%;
+}
+
+.pricing-block-pics {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.pricing-block-title {
+  margin-top: .6rem;
+  margin-left: 1rem;
+  font-weight: 900;
+  font-size: 1.1rem;
+}
+
+.pricing-block-text {
+  width: 70%;
+  line-height: 1.5rem;
+  color: #262833;
+  font-weight: 200;
+  margin-left: 5rem;
+  margin-right: 6rem;
+  margin-top: -.5rem;
 }
