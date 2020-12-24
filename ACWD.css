@@ -285,9 +285,10 @@ LANDING
   text-align: center;
   margin: auto;
   width: 80%;
-  line-height: 1.5rem;
   color: #4b4b4be0;
   font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
 
 }
 
@@ -343,6 +344,9 @@ LANDING
   font-weight: 300;
   margin-left: 1.5rem;
   margin-right: 6rem;
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
 }
 
 .pricing-block-list {
@@ -375,10 +379,12 @@ LANDING
   width: 70%;
   line-height: 1.5rem;
   color: #4b4b4be0;
-  font-weight: 300;
   margin-left: 5rem;
   margin-right: 6rem;
   margin-top: -0.6rem;
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
 }
 
 
