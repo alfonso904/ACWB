@@ -266,11 +266,11 @@ h1 {
 
 .what-we-do-block {
   display: flex;
-  margin-top: -10rem;
+  margin-top: -12rem;
 }
 
 .what-we-do {
   margin: auto;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 900;
 }
