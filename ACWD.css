@@ -1,3 +1,7 @@
+* {
+  letter-spacing: 1.5px;
+}
+
 body.no-scroll {
   overflow: hidden; 
 }
@@ -189,7 +193,7 @@ h1 {
   margin-left: 1.5rem;
   margin-right: 6rem;
   padding-top: 3rem;
-
+  max-width: 70%;
 }
 
 .landing-text {
@@ -199,6 +203,7 @@ h1 {
   font-size: 1rem;
   margin-left: 1.5rem;
   margin-right: 6rem;
+  max-width: 70%;
 
 }
 
@@ -232,14 +237,28 @@ h1 {
 
 .computer {
   width: 75%;
+  max-width: 25rem;
   margin-top: 4rem;
-
   right: 0;
   position: absolute;
   background-color: #11275F;
 
+}
 
+.filler-block {
+  opacity: 0;
+  height: calc((5em + 1vmin) + (5em + 1vmax));
+  width: 100%;
+}
 
-
-
+.dot {
+  height: calc((2.5em + 1vmin) + (2.5em + 1vmax));
+  width: 100%;
+  margin-top: -2.4rem;
+  background-color: white;
+  border-radius: 40%;
+  position: absolute;
+  top: 15;
+  display: inline-block;
+  
 }
