@@ -183,7 +183,7 @@ LANDING
 .main-landing-page {
   background-color: #11275F;
   margin-top: -1.4rem;
-  height: 45rem;
+  height: 47rem;
 }
 
 .landing-header {
@@ -194,7 +194,7 @@ LANDING
   margin-left: 1.5rem;
   margin-right: 6rem;
   padding-top: 3rem;
-  max-width: 70%;
+  max-width: 70%
 }
 
 .landing-text {
@@ -240,7 +240,7 @@ LANDING
   width: 75%;
   max-width: 25rem;
   margin-top: 4rem;
-  right: 0;
+  right: 2rem;
   position: absolute;
   background-color: #11275F;
 
@@ -255,11 +255,11 @@ LANDING
 .dot {
   height: calc((2.5em + 1vmin) + (2.5em + 1vmax));
   width: 100%;
-  margin-top: -2.9rem;
+  
   background-color: white;
   border-radius: 100%;
   position: absolute;
-  top: 15;
+  top: 49rem;
   display: inline-block;
   
 }
