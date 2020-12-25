@@ -317,7 +317,7 @@ LANDING
 }
 
 
-.what-we-do-text {
+.what-we-do-text, .me-name-text {
   text-align: center;
   margin: auto;
   width: 80%;
@@ -333,7 +333,7 @@ LANDING
   
 }
 
-.what-we-do-subsections {
+.what-we-do-subsections, .me-name-header {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 800;
   font-size: 1.1rem;
@@ -445,6 +445,7 @@ LANDING
 .dot2 {
   height: 65%;
   width: 65%;
+  max-width: 25rem;
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -454,4 +455,101 @@ LANDING
 
 }
 
+.rates-block-container {
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  
+
+}
+
+.rates-content {
+  width: 80%;
+  margin: auto;
+  border: 1px solid #11275F;
+  border-radius: 6px;
+  box-shadow: 4px 4px 13px 2px grey;
+  
+
+}
+
+.rates-block-title {
+  background-color: #11275F;
+  color: #D7D7D7;
+  font-weight: 900;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top-right-radius: 4.5px;
+  border-top-left-radius: 4.5px;
+  border: 1px solid #11275F;
+}
+
+.rate-title {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.five-pages {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  color: #4b4b4be0;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.monthly-fee {
+  
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: #183786;
+  display: flex;
+  justify-content: center;
+}
+
+   .rate-included {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  color: #4b4b4be0;
+  padding-bottom: 1rem;
+  
+  text-align: center;
+}
+
+.button-div-2 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+.call-us-button2 {
+  background-color: #11275F;
+  border: none;
+  color: #D7D7D7;
+  margin-top: .5rem;
+  margin-bottom: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 6px;
+  font-size: .75rem;
+  
+
+}
+
+.call-us-anchor2 {
+  text-decoration: none;
+  color: #D7D7D7;
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.call-us-button2:hover {
+  background-color: #464646;
+  transition: 0.5s
+}
 
