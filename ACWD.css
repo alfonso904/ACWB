@@ -466,9 +466,9 @@ LANDING
 .rates-content {
   width: 80%;
   margin: auto;
-  border: 1px solid #11275F;
-  border-radius: 6px;
-  box-shadow: 4px 4px 13px 2px grey;
+ 
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px 1px grey;
   
 
 }
@@ -479,9 +479,9 @@ LANDING
   font-weight: 900;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-top-right-radius: 4.5px;
-  border-top-left-radius: 4.5px;
-  border: 1px solid #11275F;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  
 }
 
 .rate-title {
