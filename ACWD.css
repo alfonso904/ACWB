@@ -8,7 +8,7 @@ body.no-scroll {
 }
 
 .navigation {
-  background-color: #11275F;
+  background-color: #16337c;
 }
 
 @media only screen and (min-width: 768px) {
@@ -24,7 +24,7 @@ body.no-scroll {
   z-index: 5;
   transition: all 0.5s ease-in-out;
   font-weight: 400;
-  background-color: #11275F;
+  background-color: #16337c;
 }
 
 .nav__list {
@@ -181,7 +181,7 @@ LANDING
 
 
 .main-landing-page {
-  background-color: #11275F;
+  background-color: #16337c;
   margin-top: -1.4rem;
   height: 45rem;
 }
@@ -580,7 +580,7 @@ LANDING
 
 .ACWB-info {
   height: 37rem;
-  background-color: #11275F;
+  background-color: #16337c;
   position: relative;
   top: 6rem;
 }
@@ -659,10 +659,10 @@ LANDING
 }
 
 .bottom-footer {
-  background-color: #0e1f4d;
+  background-color: #11275F;
   position: relative;
   top: 5rem;
-  border-bottom: 5px solid #0e1f4d;
+  border-bottom: 5px solid #11275F;
 
 }
 
