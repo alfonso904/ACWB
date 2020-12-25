@@ -595,6 +595,12 @@ LANDING
 
 }
 
+.ACWB-info-list-items {
+  color: #D7D7D7;
+  padding-bottom: 0.5rem;
+
+}
+
 .logo-mobile-bottom {
   width: 13rem;
   max-width: 17rem;
