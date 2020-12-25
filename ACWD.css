@@ -569,7 +569,7 @@ LANDING
 .dot3 {
   height: calc((2.5em + 1vmin) + (2.5em + 1vmax));
   width: 100%;
-  margin-top: 2.9rem;
+  margin-top: 3rem;
   background-color: white;
   border-radius: 100%;
   position: absolute;
