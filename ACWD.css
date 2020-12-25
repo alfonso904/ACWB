@@ -598,6 +598,8 @@ LANDING
 .ACWB-info-list-items {
   color: #D7D7D7;
   padding-bottom: 0.5rem;
+  text-decoration: none;
+  text-decoration-color: none;
 
 }
 
