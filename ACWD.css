@@ -215,10 +215,6 @@ LANDING
   margin-top: .5rem;
   margin-bottom: 3rem;
   margin-left: 1.5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   border-radius: 6px;
   font-size: .75rem;
 
@@ -228,6 +224,10 @@ LANDING
   text-decoration: none;
   color: #2c2c2cea;
   font-family: 'Nunito Sans', sans-serif;
+  display: inline-block;
+  width: 9rem;
+  height: 2.8rem;
+  line-height: 2.8rem;
 
 }
 
@@ -534,10 +534,6 @@ LANDING
   color: #D7D7D7;
   margin-top: .5rem;
   margin-bottom: 3rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   border-radius: 6px;
   font-size: .75rem;
   
@@ -548,6 +544,10 @@ LANDING
   text-decoration: none;
   color: #D7D7D7;
   font-family: 'Nunito Sans', sans-serif;
+  display: inline-block;
+  width: 9rem;
+  height: 2.8rem;
+  line-height: 3rem;
 
 }
 
@@ -607,6 +607,12 @@ LANDING
 
 }
 
+.phone-anchor {
+  text-decoration: none;
+  text-decoration-color: none;
+  color: #D7D7D7;
+}
+
 .logo-mobile-bottom {
   width: 13rem;
   max-width: 17rem;
@@ -640,13 +646,17 @@ LANDING
 }
 
 
-.nav-bottom-anchor {
+.nav-bottom-list {
   padding-bottom: 1.5rem;
 }
 
 .nav-bottom-anchor {
   text-decoration: none;
   color: #D7D7D7;
+}
+
+.nav-bottom-anchor:hover, .phone-anchor:hover {
+  text-decoration: underline;
 }
 
 .bottom-footer {
