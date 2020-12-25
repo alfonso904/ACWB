@@ -11,6 +11,7 @@ $('.nav__trigger',).on('click', function(e){
 
 });
 
+
 $('.nav li, .nav').on('click', function(){
   $(".nav__trigger").parent().removeClass("nav--active");
   $(".nav__icon").removeClass("nav--active");
