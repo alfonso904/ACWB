@@ -466,7 +466,6 @@ LANDING
 .rates-content {
   width: 80%;
   margin: auto;
- 
   border-radius: 10px;
   box-shadow: 1px 1px 20px 1px grey;
   
@@ -553,3 +552,109 @@ LANDING
   transition: 0.5s
 }
 
+
+.rates-block-container2 {
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  
+
+}
+
+
+.dot3 {
+  height: calc((2.5em + 1vmin) + (2.5em + 1vmax));
+  width: 100%;
+  margin-top: 2.9rem;
+  background-color: white;
+  border-radius: 100%;
+  position: absolute;
+  top: 15;
+  display: inline-block;
+  z-index: 1;
+  
+}
+
+.ACWB-info {
+  height: 35rem;
+  background-color: #11275F;
+  position: relative;
+  top: 6rem;
+}
+
+.ACWB-info-list {
+  position: relative;
+  top: 6rem;
+  list-style-type: none;
+  padding: 0;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  color: #D7D7D7;
+  font-weight: 200;
+  font-size: 0.9rem;
+
+}
+
+.logo-mobile-bottom {
+  width: 13rem;
+  max-width: 17rem;
+  position: relative;
+  top: 6rem;
+  margin-left: 1.5rem;
+}
+
+.bottom-nav-word {
+  margin-left: 1.5rem;
+  padding-bottom: 1.5rem;
+  position: relative;
+  top: 8rem;
+  color: #D7D7D7;
+  font-size: 1.4rem;
+  font-weight: 800;
+  border-bottom: 1px solid #D7D7D7;
+  width: 11rem;
+}
+
+.navigation-info-list {
+  position: relative;
+  top: 8rem;
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  color: #D7D7D7;
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+.nav-bottom-anchor {
+  padding-bottom: 1.5rem;
+}
+
+.nav-bottom-anchor {
+  text-decoration: none;
+  color: #D7D7D7;
+}
+
+.bottom-footer {
+  background-color: #0e1f4d;
+  position: relative;
+  top: 6rem;
+
+}
+
+.bottom-footer-block, .bottom-footer-block2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+h5 {
+  color: #D7D7D7;
+  font-size: 0.9rem;
+  font-weight: 200;
+
+
+}
