@@ -183,7 +183,7 @@ LANDING
 .main-landing-page {
   background-color: #11275F;
   margin-top: -1.4rem;
-  height: 47rem;
+  height: 45rem;
 }
 
 .landing-header {
@@ -239,10 +239,11 @@ LANDING
 .computer {
   width: 75%;
   max-width: 25rem;
-  margin-top: 4rem;
-  right: 2rem;
+  margin-top: 3rem;
+  right: 1rem;
   position: absolute;
-  background-color: #11275F;
+  
+  
 
 }
 
@@ -255,11 +256,10 @@ LANDING
 .dot {
   height: calc((2.5em + 1vmin) + (2.5em + 1vmax));
   width: 100%;
-  
   background-color: white;
   border-radius: 100%;
   position: absolute;
-  top: 49rem;
+  top: 47rem;
   display: inline-block;
   
 }
@@ -473,7 +473,6 @@ LANDING
   border-radius: 10px;
   box-shadow: 1px 1px 20px 1px grey;
   
-
 }
 
 .rates-block-title {
@@ -511,7 +510,7 @@ LANDING
   justify-content: center;
 }
 
-   .rate-included {
+.rate-included {
   margin: auto;
   display: flex;
   justify-content: center;
