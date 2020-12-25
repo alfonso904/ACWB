@@ -316,10 +316,6 @@ LANDING
   height: 2rem;
 }
 
-.what-we-do-text {
-  padding-bottom: 4.1rem;
-}
-
 
 .what-we-do-text, .me-name-text {
   text-align: center;
@@ -330,6 +326,10 @@ LANDING
   font-size: 1.1rem;
   line-height: 1.5rem;
 
+}
+
+.what-we-do-block2 {
+  margin-top: 7rem;
 }
 
 .what-we-do-block2, .what-we-do-block3, .what-we-do-block3, .what-we-do-block4 {
