@@ -316,6 +316,10 @@ LANDING
   height: 2rem;
 }
 
+.what-we-do-text {
+  padding-bottom: 4rem;
+}
+
 
 .what-we-do-text, .me-name-text {
   text-align: center;
@@ -576,7 +580,7 @@ LANDING
 }
 
 .ACWB-info {
-  height: 35rem;
+  height: 37rem;
   background-color: #11275F;
   position: relative;
   top: 6rem;
@@ -647,7 +651,7 @@ LANDING
 .bottom-footer {
   background-color: #0e1f4d;
   position: relative;
-  top: 6rem;
+  top: 5rem;
 
 }
 
