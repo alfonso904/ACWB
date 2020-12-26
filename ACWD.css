@@ -289,7 +289,7 @@ LANDING START
 .small-pic-dash-left, .small-pic-dash-left-first {
   display: inline-flex;
   white-space: nowrap;
-  color: #11275F;
+  color: #2047aa;
   position: relative;
   bottom: .5rem;
   
@@ -715,7 +715,7 @@ ABOUT US PAGE
 }
 
 .about-me-page-pic {
-  width: 60%;
+  width: 70%;
   margin-left: 1.5rem;
   margin-top: 1.5rem;
   border-radius: 6px;
@@ -803,6 +803,8 @@ ABOUT US PAGE
   font-weight: 300;
   font-size: 0.9rem;
   line-height: 1.5rem;
+  text-decoration: none;
+  text-decoration-color: none;
 }
 
 
