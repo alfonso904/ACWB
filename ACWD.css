@@ -369,7 +369,7 @@ LANDING START
 
 .pricing-titles {
   font-weight: 900;
-  font-size: 1.1rem;
+  font-size: 1.75rem;
   margin-top: -0.5rem;
   margin-left: 1.5rem;
   margin-right: 6rem;
@@ -654,7 +654,7 @@ LANDING START
   top: 8rem;
   color: #D7D7D7;
   font-size: 1.4rem;
-  font-weight: 800;
+  font-weight: 900;
   border-bottom: 1px solid #D7D7D7;
   width: 11rem;
 }
@@ -1047,7 +1047,7 @@ SERVICES PAGE
 
 .design-update-header {
   font-weight: 1.1rem;
-  font-weight: 800;
+  font-weight: 900;
   color: #2c2c2cea;
   margin-left: 1.5rem;
 }
