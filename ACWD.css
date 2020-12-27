@@ -183,7 +183,7 @@ LANDING START
 .main-landing-page {
   background-image: linear-gradient(rgb(17, 39, 95), #2047aa);
   margin-top: -1.36rem;
-  height: 100vh;
+  height: 90vh;
 }
 
 .landing-header {
@@ -257,7 +257,7 @@ LANDING START
   background-color: white;
   border-radius: 100%;
   position: absolute;
-  top: 101vh;
+  top: 91vh;
   display: inline-block;
   
 }
