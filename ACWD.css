@@ -1081,8 +1081,8 @@ ABOUT US PAGE
 .contact-info-main-block-page {
   width: 100%;
   max-width: 13rem;
+  border-left: 3px solid #2047aa;
   margin-left: 1.5rem;
-
 }
 
 .contact-info-header-page {
@@ -1090,8 +1090,6 @@ ABOUT US PAGE
   font-weight: 900;
   font-size: 1.1rem;
   color: #2c2c2cea;
-  white-space: nowrap;
-
 }
 
 .contact-info-page {
