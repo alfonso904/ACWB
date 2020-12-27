@@ -17,3 +17,5 @@ $('.nav li, .nav').on('click', function(){
   $(".nav__icon").removeClass("nav--active");
   $('body').removeClass('no-scroll');
 });
+
+
