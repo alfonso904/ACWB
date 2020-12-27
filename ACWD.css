@@ -959,8 +959,36 @@ SERVICES PAGE
 
 .about-me-page-pic-services2 {
   width: 80%;
-  position: static;
-  z-index: 0;
-  margin-top: -5rem;
-  margin-bottom: -5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.pricing-block-list-service {
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.pricing-block-span-list-service {
+  display: inline-flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  float: left;
+}
+
+.pricing-block-pics-service {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.pricing-block-text-service {
+  line-height: 1.5rem;
+  color: #4b4b4be0;
+  margin-top: -0.3rem;
+  margin-left: .75rem;
+  font-weight: 300;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
 }
