@@ -996,3 +996,41 @@ SERVICES PAGE
 .about-me-page-pic-services3 {
   margin-top: 4rem;
 }
+
+
+.design-update-container {
+  width: 100%;
+}
+
+.design-update-box {
+  width: 80%;
+  margin: auto;
+  display: block;
+  box-shadow: 2px 4px 29px 3px #2047aa52;
+  border-top: 3px solid #2047aa56;
+  border-radius: 10px;
+}
+
+.design-update-pic {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+  margin-top: 2.5rem;
+}
+
+.design-update-header {
+  font-weight: 1.1rem;
+  font-weight: 800;
+  color: #2c2c2cea;
+  margin-left: 1.5rem;
+}
+
+.design-update-text {
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  color: #4b4b4be0;
+  margin-left: 1.5rem;
+  margin-right: .5rem;
+  padding-bottom: 1.5rem;
+}
