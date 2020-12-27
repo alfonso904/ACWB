@@ -976,17 +976,17 @@ SERVICES PAGE
 
 .about-me-page-pic-services2 {
   width: 80%;
-  margin-top: 8rem;
-  margin-bottom: 5rem;
+  margin-top: 7rem;
+  margin-bottom: 2.5rem;
 }
 
 .about-me-page-pic-services3, .about-me-page-pic-services4 {
   width: 70%;
-  margin-top: 8rem
+  margin-top: 7rem
 }
 
 .about-me-page-pic-services3 {
-  margin-top: 6rem !important;
+  margin-top: 6rem;
 }
 
 .pricing-block-list-service {
