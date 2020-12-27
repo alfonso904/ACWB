@@ -937,4 +937,22 @@ input[type=text], textarea {
   
 
   
+/**********************
+SERVICES PAGE
 
+
+***********************/
+
+.about-me-page-pic-services {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.highlight-text {
+  font-weight: 900;
+}
