@@ -961,7 +961,7 @@ SERVICES PAGE
 
 
 .about-me-page-pic-services, .about-me-page-pic-services2, .about-me-page-pic-services3, .about-me-page-pic-services4 {
-  width: 70%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.5rem;
@@ -977,12 +977,15 @@ SERVICES PAGE
 .about-me-page-pic-services2 {
   width: 80%;
   margin-top: 7rem;
-  margin-bottom: 2.5rem;
 }
 
 .about-me-page-pic-services3, .about-me-page-pic-services4 {
-  width: 70%;
+  width: 80%;
   margin-top: 7rem
+}
+
+.about-me-page-pic-services4 {
+  margin-top: 8.5rem;
 }
 
 .about-me-page-pic-services3 {
