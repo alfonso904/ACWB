@@ -73,6 +73,7 @@ body.no-scroll {
   border-radius: 2px;
   transition-property: background-color, transform;
   transition-duration: 0.5s; 
+  opacity: 0.5;
 }
 
 .nav__icon:before, .nav__icon:after {
@@ -83,7 +84,6 @@ body.no-scroll {
   position: absolute;
   background: rgba(233, 233, 233, 0.911);
   border-radius: 2px;
-  opacity: 0.9;
   transition-property: margin, transform;
   transition-duration: 0.5s;
 }
@@ -101,7 +101,7 @@ body.no-scroll {
   color: #DBDBDB;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 200;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .nav--active .nav__link {
@@ -183,7 +183,7 @@ LANDING START
 .main-landing-page {
   background-image: linear-gradient(rgb(17, 39, 95), #2047aa);
   margin-top: -1.36rem;
-  height: 45rem;
+  height: 100vh;
 }
 
 .landing-header {
@@ -243,8 +243,6 @@ LANDING START
   right: 1rem;
   position: absolute;
   
-  
-
 }
 
 .filler-block {
@@ -254,12 +252,12 @@ LANDING START
 }
 
 .dot {
-  height: calc((2.5em + 1vmin) + (2.5em + 1vmax));
+  height: calc((4em + 1vmin) + (4em + 1vmax));
   width: 100%;
   background-color: white;
   border-radius: 100%;
   position: absolute;
-  top: 47rem;
+  top: 101vh;
   display: inline-block;
   
 }
