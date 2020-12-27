@@ -943,7 +943,7 @@ SERVICES PAGE
 
 ***********************/
 
-.about-me-page-pic-services {
+.about-me-page-pic-services, .about-me-page-pic-services2 {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
@@ -955,4 +955,8 @@ SERVICES PAGE
 
 .highlight-text {
   font-weight: 900;
+}
+
+.about-me-page-pic-services2 {
+  width: 80%;
 }
