@@ -958,6 +958,8 @@ SERVICES PAGE
 
 ***********************/
 
+
+
 .about-me-page-pic-services, .about-me-page-pic-services2, .about-me-page-pic-services3, .about-me-page-pic-services4 {
   width: 60%;
   margin-left: auto;
@@ -1061,3 +1063,46 @@ SERVICES PAGE
   padding-bottom: 1.5rem;
 }
 
+
+
+
+/*******************************
+ABOUT US PAGE
+
+*******************************/
+
+
+.contact-info-container-block-page {
+  width: 100%;
+  padding-top: 2rem;
+
+}
+
+.contact-info-main-block-page {
+  width: 100%;
+  max-width: 13rem;
+  margin-left: 1.5rem;
+  border-left: 3px solid #2047aa;
+}
+
+.contact-info-header-page {
+  margin-left: .5rem;
+  font-weight: 900;
+  font-size: 1.1rem;
+  color: #2c2c2cea;
+  white-space: nowrap
+
+}
+
+.contact-info-page {
+  width: 70%;
+  line-height: 1.5rem;
+  color: #4b4b4be0;
+  margin-left: .5rem;
+  margin-top: -0.5rem;
+  font-weight: 300;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  text-decoration: none;
+  text-decoration-color: none;
+}
