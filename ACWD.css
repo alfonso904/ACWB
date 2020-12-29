@@ -193,7 +193,6 @@ LANDING START
   margin-left: 1.5rem;
   margin-right: 6rem;
   max-width: 70%;
-  line-height: 1.5rem;
 }
 
 .call-us-button {
@@ -425,9 +424,10 @@ LANDING START
 
 .learn-more-about {
   text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
   width: 100%;
   color: #2047aa;
-  font-weight: 900;
 }
 
 .learn-more-about:hover {
@@ -457,7 +457,7 @@ LANDING START
 
 .rates-content {
   width: 80%;
-  max-width: 25rem;
+  max-width: 30rem;
   margin: auto;
   border-radius: 10px;
   box-shadow: 2px 4px 29px 3px rgba(0, 0, 0, 0.1);
@@ -688,7 +688,6 @@ ABOUT US PAGE
 
 .about-me-page-pic {
   width: 70%;
-  max-width: 25rem;
   margin-left: 1.5rem;
   margin-top: 1.5rem;
   border-radius: 6px;
@@ -794,7 +793,6 @@ FORM
   margin-bottom: 1rem;
   box-shadow: 2px 4px 29px 3px rgba(0, 0, 0, 0.1);
   width: 80%;
-  max-width: 25rem;
 }
 
 .form-name {
@@ -899,7 +897,6 @@ SERVICES PAGE
   border-radius: 20px;
   display: flex;
   justify-content: center;
-  max-width: 25rem;
 }
 
 .highlight-text {
@@ -960,7 +957,6 @@ SERVICES PAGE
 
 .design-update-box {
   width: 80%;
-  max-width: 25rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2.5rem;
