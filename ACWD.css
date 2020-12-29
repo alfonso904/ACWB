@@ -484,9 +484,9 @@ LANDING START
   display: flex;
   justify-content: center;
   color: #4b4b4be0;
-  font-weight: 300;
   padding-top: 2rem;
   text-align: center;
+  line-height: 1.5rem;
 }
 
 .monthly-fee {
@@ -504,6 +504,7 @@ LANDING START
   justify-content: center;
   color: #4b4b4be0;
   font-weight: 300;
+  line-height: 1.5rem;
   padding-bottom: 1rem;
   text-align: center;
 }
@@ -652,6 +653,7 @@ h5 {
   font-weight: 200;
   margin-left: 1rem;
   margin-right: 1rem;
+  line-height: 1.5rem;
 }
 
 
@@ -724,7 +726,6 @@ ABOUT US PAGE
   justify-content: center;
   padding-top: 2.5rem;
 }
-
 
 .contact-info-container-block {
   width: 100%;
@@ -891,6 +892,7 @@ SERVICES PAGE
 
 .about-me-page-pic-services, .about-me-page-pic-services2, .about-me-page-pic-services3, .about-me-page-pic-services4 {
   width: 80%;
+  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.5rem;
@@ -983,6 +985,7 @@ SERVICES PAGE
 .design-update-text {
   font-size: 1.1rem;
   font-weight: 300;
+  line-height: 1.5rem;
   line-height: 1.5rem;
   color: #4b4b4be0;
   margin-left: 1.5rem;
