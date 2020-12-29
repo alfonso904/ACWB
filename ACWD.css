@@ -690,6 +690,7 @@ ABOUT US PAGE
 
 .about-me-page-pic {
   width: 70%;
+  max-width: 25rem;
   margin-left: 1.5rem;
   margin-top: 1.5rem;
   border-radius: 6px;
@@ -794,6 +795,7 @@ FORM
   margin-bottom: 1rem;
   box-shadow: 2px 4px 29px 3px rgba(0, 0, 0, 0.1);
   width: 80%;
+  max-width: 25rem;
 }
 
 .form-name {
@@ -892,7 +894,7 @@ SERVICES PAGE
 
 .about-me-page-pic-services, .about-me-page-pic-services2, .about-me-page-pic-services3, .about-me-page-pic-services4 {
   width: 80%;
-  max-width: 80%;
+  max-width: 25rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.5rem;
@@ -947,6 +949,7 @@ SERVICES PAGE
   color: #4b4b4be0;
   margin-top: -0.3rem;
   margin-left: .75rem;
+  margin-right: .75rem;
   font-weight: 300;
   font-size: 0.9rem;
   line-height: 1.5rem;
@@ -959,6 +962,7 @@ SERVICES PAGE
 
 .design-update-box {
   width: 80%;
+  max-width: 25rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2.5rem;
