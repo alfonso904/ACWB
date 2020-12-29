@@ -193,6 +193,7 @@ LANDING START
   margin-left: 1.5rem;
   margin-right: 6rem;
   max-width: 70%;
+  line-height: 1.5rem;
 }
 
 .call-us-button {
@@ -424,8 +425,7 @@ LANDING START
 
 .learn-more-about {
   text-decoration: none;
-  display: inline-flex;
-  justify-content: center;
+  font-weight: 900;
   width: 100%;
   color: #2047aa;
 }
