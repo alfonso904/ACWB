@@ -193,6 +193,7 @@ LANDING START
   margin-left: 1.5rem;
   margin-right: 6rem;
   max-width: 70%;
+  line-height: 1.5rem;
 }
 
 .call-us-button {
@@ -424,10 +425,9 @@ LANDING START
 
 .learn-more-about {
   text-decoration: none;
-  display: inline-flex;
-  justify-content: center;
   width: 100%;
   color: #2047aa;
+  font-weight: 900;
 }
 
 .learn-more-about:hover {
@@ -688,6 +688,7 @@ ABOUT US PAGE
 
 .about-me-page-pic {
   width: 70%;
+  max-width: 25rem;
   margin-left: 1.5rem;
   margin-top: 1.5rem;
   border-radius: 6px;
