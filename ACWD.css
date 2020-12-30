@@ -5,11 +5,13 @@
 
 
 
+
 @media only screen and (min-width: 768px) {
  
 
 html {
   overflow-x: hidden;
+
 }
 
 #page-wrap-container {
@@ -45,10 +47,15 @@ html {
 .logo-mobile {
   width: 19rem;
   margin-top: 1rem;
+
 }
 
 .navigation {
-  display: flex;
+
+  display: -webkit-box;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -266,16 +273,22 @@ html {
 
 .money-icon {
   margin-top: 10rem;
-  width: 45%;
+  width: 35rem;
+  
 }
 
 .desktop-pricing-block {
-  width: 100%;
-  display: inline-flex;
+  width: 50%;
+  display: -webkit-box;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .desktop-pricing-block2 {
   margin-top: 14rem;
+  
 }
 
 .desktop-pricing-block-container {
