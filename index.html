@@ -32,12 +32,12 @@ NAV BAR
 
 --------------->
 
-
-
+<div id="page-wrap-container">
+<div id="page-wrap">
 
 
 <header class="navigation">
-  <img class="logo-mobile" src="https://raw.githubusercontent.com/alfonso904/ACWB/d7441e902d2aea921386e6b7b298fed0fdccddb5/For%20Web/svg/Color%20logo%20-%20no%20background.svg">
+  <img class="logo-mobile" src="./pics/svg/colorlogonoback.svg">
   <a href="#" class="nav__trigger"><span class="nav__icon"></span></a>
   <nav class="nav">
     <ul class="nav__list">
@@ -52,7 +52,6 @@ NAV BAR
 
 
 
-
 <!--------------
 LANDING
 
@@ -61,7 +60,6 @@ LANDING
 
 
 
-<body>
 
 
   
@@ -72,14 +70,18 @@ LANDING
             <button class="call-us-button"><a href="./contact.html" class="call-us-anchor">GET IN TOUCH!</a></button>
             <img class="computer" src="https://raw.githubusercontent.com/alfonso904/ACWB/main/For%20Web/mock-up%20(1).png">
         </div>
+        <img class="computer-desktop" src="https://raw.githubusercontent.com/alfonso904/ACWB/main/For%20Web/mock-up%20(1).png">
     </div>
-
+  </div>
     <div class="circle-div">
       <span class="dot"></span>
       </div>
-    <div class="filler-block"><p>empty</p></div>
+    <div class="filler-block"><p></p></div>
+
+    </div>
 
 
+  
 
 
 
@@ -89,7 +91,10 @@ WHAT WE DO BLOCK
 --------------->
 
 
+<div id="page-wrap-body">
 
+<body>
+  
 
 
   <div class="what-we-do-block">
@@ -99,13 +104,14 @@ WHAT WE DO BLOCK
           <img class="title-small-pic" src="https://raw.githubusercontent.com/alfonso904/ACWB/main/For%20Web/160768507022540358v.png">
           <p class="small-pic-dash-right-first"> ‎ ----</p>
       </div>
-      <p class="what-we-do-text">We specialize in web design and development for small businesses. All of our code is written by hand and custom
+      <p class="what-we-do-text" id="what-we-do-text" >We specialize in web design and development for small businesses. All of our code is written by hand and custom
       tailored to your target audience to ensure optimum performance, bringing in more customers to your site and generating more revenue 
       for your business. 
       </p>
   </div> 
 
-
+  <div class="desktop-what-we-do-inline">
+    <div class="desktop-what-we-do-box">
   <div class="what-we-do-block2">
       <img class="what-we-do-pic" src="https://raw.githubusercontent.com/alfonso904/ACWB/e1e833f383cd884a74c687739121dc0745ca6f67/For%20Web/smartphone.svg">
       <h1 class="what-we-do-subsections">Mobile-First Design</h1>
@@ -127,6 +133,8 @@ WHAT WE DO BLOCK
   <h1 class="what-we-do-subsections">Optimzed</h1>
   <p class="what-we-do-text">60% of all web traffic comes from mobile devices. We optimize your mobile site for best performance in search engines.
 </div>
+</div>
+</div>
 
 
 
@@ -142,7 +150,9 @@ WHAT'S INCLUDED BLOCK
 
 
 <div class="pricing-block">
+  <div class="desktop-pricing-block">
   <img class="money-icon" src="https://raw.githubusercontent.com/alfonso904/ACWB/ed50c4ce0320e75a9fde39c7ac31689200824fbe/For%20Web/asx4b-wj66h.svg">
+  <div class="desktop-pricing-block2">
   <h2 class="pricing-titles"><span style="color:#2047aa">$0‎</span> <span style="color: #2c2c2cea">‎Down. </span><span style="color:#2047aa">$150‎</span>
     <span style="color: #2c2c2cea">‎Per Month. No Minimum Contract. </span></h2>
     <p class="pricing-text">For $150/month with $0 down, we will create a standard 5 page website for your small business. If more pages or specific 
@@ -150,17 +160,21 @@ WHAT'S INCLUDED BLOCK
     </p>
     <p class="pricing-text">You own your domain and content. No contracts. Cancel anytime with no fees or hassle.
     </p>
+  </div>
 </div>
 
-<div class="pricing-block-list">
+
+<div class="pricing-block-desktop-container">
+  <div class="pricing-block-desktop-block">
+<div class="pricing-block-list" id="desktop-pricing-block-list">
     <span class="pricing-block-span-list">
       <img class="pricing-block-pics" src="https://raw.githubusercontent.com/alfonso904/ACWB/2235d3296e3aa993b468eb24511da94b90258997/For%20Web/1264356.svg">
-      <h2 class="pricing-block-title">Hosting Fees Included</h2>
+      <h2 class="pricing-block-title">No Hosting Fees</h2>
     </span>
-      <p class="pricing-block-text">Hosting fees are included in the monthly payment.</p>
+      <p class="pricing-block-text">No hidden hosting fees. We host your website at no extra cost.</p>
 </div>
 
-<div class="pricing-block-list">
+<div class="pricing-block-list" id="desktop-pricing-block-list">
   <span class="pricing-block-span-list">
     <img class="pricing-block-pics" src="https://raw.githubusercontent.com/alfonso904/ACWB/2235d3296e3aa993b468eb24511da94b90258997/For%20Web/1264356.svg">
     <h2 class="pricing-block-title">Unlimited Edits</h2>
@@ -168,31 +182,36 @@ WHAT'S INCLUDED BLOCK
     <p class="pricing-block-text">Change or update anything on your website at anytime and it will be done within 24 hours.</p>
 </div>
 
-<div class="pricing-block-list">
+<div class="pricing-block-list" id="desktop-pricing-block-list">
   <span class="pricing-block-span-list">
     <img class="pricing-block-pics" src="https://raw.githubusercontent.com/alfonso904/ACWB/2235d3296e3aa993b468eb24511da94b90258997/For%20Web/1264356.svg">
     <h2 class="pricing-block-title">24/7 Customer Service</h2>
   </span>
     <p class="pricing-block-text">Call, text or e-mail anytime, day or night. No automated responses or bots.</p>
 </div>
+</div>
 
+<div class="pricing-block-desktop-block2">
+<div class="desktop-pricing-block4" id="desktop-pricing-block-list">
 <div class="pricing-block-list">
   <span class="pricing-block-span-list">
     <img class="pricing-block-pics" src="https://raw.githubusercontent.com/alfonso904/ACWB/2235d3296e3aa993b468eb24511da94b90258997/For%20Web/1264356.svg">
     <h2 class="pricing-block-title">Mobile, Desktop & Tablet Design</h2>
   </span>
-    <p class="pricing-block-text">Includes numerous hours of design, development and testing to ensure optimum results.</p>
+    <p class="pricing-block-text">Numerous hours of design, development and testing. </p>
 </div>
 
-<div class="pricing-block-list">
+<div class="pricing-block-list" id="desktop-pricing-block-list">
   <span class="pricing-block-span-list">
     <img class="pricing-block-pics" src="https://raw.githubusercontent.com/alfonso904/ACWB/2235d3296e3aa993b468eb24511da94b90258997/For%20Web/1264356.svg">
     <h2 class="pricing-block-title">Web Analytics</h2>
   </span>
     <p class="pricing-block-text">Analytics are included for free to monitor web traffic and where it comes from.</p>
 </div>
+</div>
+</div>
 
-
+</div>
 
 
 
@@ -215,7 +234,7 @@ WHO WE ARE BLOCK
     </div>
   </div>
   <span>
-      <p class="what-we-do-text">My name is Alfonso Espinoza, I am an Army veteran and a web developer. Ever since
+      <p class="what-we-do-text" id="about-me">My name is Alfonso Espinoza, I am an Army veteran and a web developer. Ever since
     I was a child, I always had a passion for computers and learning the mechanics behind what made them work. 
     I started this business while I was active duty inspiried by my passion for coding and creating websites. Over time, I meticulously
     taught myself how to write code and develop websites the right way.
@@ -244,48 +263,51 @@ PLANS BLOCK
 </div>
 
 
+
+<div class="rates-container-desktop">
+
 <div class="rates-block-container">
     <div class="rates-content">
-        <div class="rates-block-title">
-           <p class="rate-title">STANDARD</p>
-        </div>
-        <div class="all-rates">
-            <p class="five-pages">5 PAGES</p>
-            <p class="monthly-fee">$150/mo</p>
-            <p class="rate-included">No Hosting Fee</p>
-            <p class="rate-included">Web Traffic Analytics</p>
-            <p class="rate-included">24/7 Customer Service</p>
-            <p class="rate-included">Unlimted Edits & Updates</p>
-            <p class="rate-included">Mobile, Desktop & Tablet Design</p>
-            <div class="button-div-2">
-                <button class="call-us-button2"><a href="./contact.html" class="call-us-anchor2">CONTACT US</a></button>
-            </div>
+      <div class="rates-block-title">
+        <p class="rate-title">STANDARD + BLOGGING</p>
+     </div>
+     <div class="all-rates">
+         <p class="five-pages">STARTING AT</p>
+         <p class="monthly-fee">$275/mo</p>
+         <p class="rate-included">1,000 Word Post</p>
+         <p class="rate-included">Keyword Analysis</p>
+         <p class="rate-included">Written By An SEO Expert</p>
+         <p class="rate-included">Helps Increase Web Traffic</p>
+         <div class="button-div-2">
+             <button class="call-us-button2"><a href="./contact.html" class="call-us-anchor2">CONTACT US</a></button>
+         </div>
          </div>
       </div>
     </div>
-</div>
+
+
 
 <div class="rates-block-container2">
-  <div class="rates-content">
-      <div class="rates-block-title">
-         <p class="rate-title">STANDARD + BLOGGING</p>
-      </div>
-      <div class="all-rates">
-          <p class="five-pages">STARTING AT</p>
-          <p class="monthly-fee">$275/mo</p>
-          <p class="rate-included">1,000 Word Post</p>
-          <p class="rate-included">Keyword Analysis</p>
-          <p class="rate-included">Written By An SEO Expert</p>
-          <p class="rate-included">Helps Increase Web Traffic</p>
-          <div class="button-div-2">
-              <button class="call-us-button2"><a href="./contact.html" class="call-us-anchor2">CONTACT US</a></button>
-          </div>
+  <div class="rates-content" id="rates-content-middle">
+    <div class="rates-block-title">
+      <p class="rate-title">STANDARD</p>
+    </div>
+    <div class="all-rates">
+       <p class="five-pages" id="desktop-5-pages">5 PAGES</p>
+       <p class="monthly-fee" id="desktop-monthly-fee">$150/mo</p>
+       <p class="rate-included" id="desktop-rate-included">No Hosting Fee</p>
+       <p class="rate-included">Web Traffic Analytics</p>
+       <p class="rate-included">24/7 Customer Service</p>
+       <p class="rate-included">Unlimted Edits & Updates</p>
+       <p class="rate-included">Mobile, Desktop & Tablet Design</p>
+       <div class="button-div-2">
+           <button class="call-us-button2"><a href="./contact.html" class="call-us-anchor2">CONTACT US</a></button>
+       </div>
        </div>
     </div>
   </div>
-</div>
 
-<div class="rates-block-container2">
+<div class="rates-block-container">
   <div class="rates-content">
       <div class="rates-block-title">
          <p class="rate-title">LOGO & GRAPHIC DESIGN</p>
@@ -295,6 +317,7 @@ PLANS BLOCK
           <p class="monthly-fee">$300</p>
           <p class="rate-included">Two Revisions</p>
           <p class="rate-included">All File Formats</p>
+          <p class="rate-included">Helps Build Brand</p>
           <p class="rate-included">Horizontal & Vertical</p>
           <div class="button-div-2">
               <button class="call-us-button2"><a href="./contact.html" class="call-us-anchor2">CONTACT US</a></button>
@@ -303,6 +326,79 @@ PLANS BLOCK
     </div>
   </div>
 </div>
+
+</div>
+
+
+
+
+
+
+<div class="rates-container-mobile">
+
+  <div class="rates-block-container">
+      <div class="rates-content">
+          <div class="rates-block-title">
+             <p class="rate-title">STANDARD</p>
+          </div>
+          <div class="all-rates">
+              <p class="five-pages">5 PAGES</p>
+              <p class="monthly-fee">$150/mo</p>
+              <p class="rate-included">No Hosting Fee</p>
+              <p class="rate-included">Web Traffic Analytics</p>
+              <p class="rate-included">24/7 Customer Service</p>
+              <p class="rate-included">Unlimted Edits & Updates</p>
+              <p class="rate-included">Mobile, Desktop & Tablet Design</p>
+              <div class="button-div-2">
+                  <button class="call-us-button2"><a href="./contact.html" class="call-us-anchor2">CONTACT US</a></button>
+              </div>
+           </div>
+        </div>
+      </div>
+  
+  
+  
+  <div class="rates-block-container2">
+    <div class="rates-content" id="rates-content-middle">
+        <div class="rates-block-title">
+           <p class="rate-title">STANDARD + BLOGGING</p>
+        </div>
+        <div class="all-rates">
+            <p class="five-pages">STARTING AT</p>
+            <p class="monthly-fee">$275/mo</p>
+            <p class="rate-included">1,000 Word Post</p>
+            <p class="rate-included">Keyword Analysis</p>
+            <p class="rate-included">Written By An SEO Expert</p>
+            <p class="rate-included">Helps Increase Web Traffic</p>
+            <div class="button-div-2">
+                <button class="call-us-button2"><a href="./contact.html" class="call-us-anchor2">CONTACT US</a></button>
+            </div>
+         </div>
+      </div>
+    </div>
+  
+  <div class="rates-block-container">
+    <div class="rates-content">
+        <div class="rates-block-title">
+           <p class="rate-title">LOGO & GRAPHIC DESIGN</p>
+        </div>
+        <div class="all-rates">
+            <p class="five-pages">STARTING AT</p>
+            <p class="monthly-fee">$300</p>
+            <p class="rate-included">Two Revisions</p>
+            <p class="rate-included">All File Formats</p>
+            <p class="rate-included">Helps Build Brand</p>
+            <p class="rate-included">Horizontal & Vertical</p>
+            <div class="button-div-2">
+                <button class="call-us-button2"><a href="./contact.html" class="call-us-anchor2">CONTACT US</a></button>
+            </div>
+         </div>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+
 
 
 
@@ -319,19 +415,23 @@ FOOTER & INFO BLOCK
 
 
 <footer>
-
-    <div class="circle-div2">
-        <span class="dot3"></span>
-    </div>
+  <div class="circle-div2">
+    <span class="dot3"></span>
+</div>
+  <div id="page-wrap-container-footer">
+  <div id="page-wrap-footer">
+    
 
     <div class="ACWB-info">
+      <div class="ACWB-info-desktop">
       <img class="logo-mobile-bottom" src="https://raw.githubusercontent.com/alfonso904/ACWB/d7441e902d2aea921386e6b7b298fed0fdccddb5/For%20Web/svg/Color%20logo%20-%20no%20background.svg">
       <ul class="ACWB-info-list">
         <li class="ACWB-info-list-items">Jacksonville, FL</li>
         <li class="ACWB-info-list-items"><a class="phone-anchor" href="malito:AtlanticCoastWebDesigns@gmail.com">ACWDesigns@gmail.com</a></li>
         <li class="ACWB-info-list-items"><a class="phone-anchor" href="tel:9042368703" >(904)-236-8703</a></li>
       </ul>
-  
+    </div>
+      <div class="ACWB-nav-desktop">
       <h3 class="bottom-nav-word">Navigation</h3>
       <ul class="navigation-info-list">
         <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./index.html">Home</a></li>
@@ -340,20 +440,24 @@ FOOTER & INFO BLOCK
         <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./contact.html">Contact</a></li>
       </ul>
     </div>
-
-    <div class="bottom-footer">
-      <div class="bottom-footer-block">
-          <h5>Copyright ©2021 | Atlantic Coast Web Designs | All Rights Reserved</h5>
-      </div>
+    <div class="ACWB-nav-desktop">
+      <h3 class="bottom-nav-word">Services</h3>
+      <ul class="navigation-info-list">
+        <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./services.html">Web Design & Development</a></li>
+        <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./services.html">Website Maintenance</a></li>
+        <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./services.html">Web Analytics</a></li>
+        <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./services.html">SEO Services</a></li>
+        <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./services.html">Logos & Grahics Design</a></li>
+      </ul>
     </div>
-
-
+  </div>
+    
+    <div class="bottom-footer">
+          <h5>Copyright ©2021 | Atlantic Coast Web Designs | All Rights Reserved</h5>
+    </div>
+</div>
+  </div>
 </footer>
-
-
-
-
-
 
 
 

@@ -26,27 +26,30 @@
 
 
 
+
 <!--------------
 NAV BAR
 
 --------------->
 
-
-
+<div id="page-wrap-container-alt">
+<div id="page-wrap">
 
 
 <header class="navigation">
-    <img class="logo-mobile" src="https://raw.githubusercontent.com/alfonso904/ACWB/d7441e902d2aea921386e6b7b298fed0fdccddb5/For%20Web/svg/Color%20logo%20-%20no%20background.svg">
-    <a href="#" class="nav__trigger"><span class="nav__icon"></span></a>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__item"><a class="nav__link" href="./index.html">Home</a></li>
-        <li class="nav__item"><a class="nav__link" href="./about.html">About</a></li>
-        <li class="nav__item"><a class="nav__link" href="./services.html">Services</a></li>
-        <li class="nav__item"><a class="nav__link" href="./contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <img class="logo-mobile" src="./pics/svg/colorlogonoback.svg">
+  <a href="#" class="nav__trigger"><span class="nav__icon"></span></a>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__item"><a class="nav__link" href="./index.html">Home</a></li>
+      <li class="nav__item"><a class="nav__link" href="./about.html">About</a></li>
+      <li class="nav__item"><a class="nav__link" href="./services.html">Services</a></li>
+      <li class="nav__item"><a class="nav__link" href="./contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+</div>
 
 
 
@@ -58,7 +61,16 @@ ABOUT US
 
 --------------->
 
+<div class="circle-div-about">
+    <span class="dot" id="dot"></span>
+    </div>
+  <div class="filler-block-about"><p></p></div>
+  </div>
 
+
+
+
+<div id="page-wrap-body">
 
 
 <body>
@@ -66,9 +78,13 @@ ABOUT US
     <div class="main-landing-page-about-us">
         <h1 class="about-us-header">About Us</h1>
     </div>
+    <div class="landing-desktop">
 
     <div class="me-about-page">
-        <img class="about-me-page-pic" src="https://raw.githubusercontent.com/alfonso904/ACWB/main/For%20Web/IMG_0317.jpg">
+        <img class="about-me-page-pic" src="./pics/graceridge.jpg">
+        <img class="about-me-page-pic" id="about-me-page-pic2" src="./pics/americanflagpic.jpg">
+    </div>
+            <div class="landing-desktop-text">
         <h2 class="giving-header"><span style="color: #2c2c2cea">Giving Small Businesses The </span><span style="color:#2047aa"> Big Business Treatment</span></h2>
         <p class="about-me-page-section">My name is Alfonso Espinoza, I am an Army veteran, a web developer and the owner 
             of Atlantic Coast Web Designs. During my time in the Army, I was stationed in Alaska as an Airborne Infantryman.
@@ -84,8 +100,9 @@ ABOUT US
             who to trust to not only deliver a great product but also provide quality customer service & support. That is why I believe in the 
             all-in-one business model of $0 down and $150/month. It is simple, convenient and more manageable for a small business to handle without
             hurting their bank account.
-
         </p>
+    </div>
+</div>
 
 
 
@@ -95,19 +112,17 @@ QUALITY BLOCK
 --------------->
 
 
-
-        <h2 class="giving-header2"><span style="color:#2047aa">Quality</span> <span style="color: #2c2c2cea">‎Beats Quantity</span></h2>
-        <p class="about-me-page-section2">We strive to focus on the needs of each individual business and custom tailor content
+        <h2 class="giving-header2" id="giving-header-2"><span style="color:#2047aa">Quality  ‎</span> <span style="color: #2c2c2cea">  ‎Beats Quantity</span></h2>
+        <p class="about-me-page-section2" id="about-me-page-section2">We strive to focus on the needs of each individual business and custom tailor content
             around the target audience and what makes the business unique. Our process involves a very hands on collaborative approach as 
             we work closely with you to create a website you are completely satisfied with rather than settling for something less.
         </p>
 
-    </div>
     
-
+    <div class="what-we-do-desktop-container">
     <div class="what-we-do-block2">
         <img class="what-we-do-pic" src="https://raw.githubusercontent.com/alfonso904/ACWB/1c7b7b6679320f187d6cebda1df45b71cd2caceb/For%20Web/2038921.svg">
-        <h1 class="what-we-do-subsections">No Pre-Written Content</h1>
+        <h1 class="what-we-do-subsections" id="what-we-do-subsection-desktop">No Pre-Written Content</h1>
         <p class="what-we-do-text">We write unique, creative and engaging content around your business for your clients.
         </p>
     </div> 
@@ -124,6 +139,8 @@ QUALITY BLOCK
     <h1 class="what-we-do-subsections">Limitless Design Possibilities</h1>
     <p class="what-we-do-text">We can edit the design to cater to your taste and audience. Everything is customizable.
   </div>
+</div>
+
 
   
   <div class="button-div-3">
@@ -138,7 +155,7 @@ CONTACT BLOCK
 --------------->
 
 
-
+<div class="about-me-contact">
 
 <div class="contact-info-container-block">
 <div class="contact-info-main-block">
@@ -148,7 +165,7 @@ CONTACT BLOCK
     </span>
       <p class="contact-info">(904)-236-8703</p>
 </div>
-</div>
+
 
 <div class="contact-info-main-block">
     <span class="contact-info-span">
@@ -157,8 +174,8 @@ CONTACT BLOCK
     </span>
       <p class="contact-info">ACWDesigns@gmail.com</p>
 </div>
-</div>
 
+</div>
 
 
 <!--------------
@@ -196,9 +213,11 @@ FORM
         </div> 
     </form>
 </div>
+</div>
 
 
 
+</div>
 </body>
 
 
@@ -211,46 +230,57 @@ FOOTER
 
 
 
-<footer>
-
+<footer class="alt-footer">
     <div class="circle-div2">
-        <span class="dot3"></span>
-    </div>
-
-    <div class="ACWB-info">
-      <img class="logo-mobile-bottom" src="https://raw.githubusercontent.com/alfonso904/ACWB/d7441e902d2aea921386e6b7b298fed0fdccddb5/For%20Web/svg/Color%20logo%20-%20no%20background.svg">
-      <ul class="ACWB-info-list">
-        <li class="ACWB-info-list-items">Jacksonville, FL</li>
-        <li class="ACWB-info-list-items"><a class="phone-anchor" href="malito:AtlanticCoastWebDesigns@gmail.com">ACWDesigns@gmail.com</a></li>
-        <li class="ACWB-info-list-items"><a class="phone-anchor" href="tel:9042368703" >(904)-236-8703</a></li>
-      </ul>
+      <span class="dot3"></span>
+  </div>
+    <div id="page-wrap-container-footer">
+    <div id="page-wrap-footer">
+      
   
-      <h3 class="bottom-nav-word">Navigation</h3>
-      <ul class="navigation-info-list">
-        <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./index.html">Home</a></li>
-        <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./about.html">About</a></li>
-        <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./services.html">Services</a></li>
-        <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./contact.html">Contact</a></li>
-      </ul>
-    </div>
-
-    <div class="bottom-footer">
-      <div class="bottom-footer-block">
-          <h5>Copyright ©2021 | Atlantic Coast Web Designs | All Rights Reserved</h5>
+      <div class="ACWB-info">
+        <div class="ACWB-info-desktop">
+        <img class="logo-mobile-bottom" src="https://raw.githubusercontent.com/alfonso904/ACWB/d7441e902d2aea921386e6b7b298fed0fdccddb5/For%20Web/svg/Color%20logo%20-%20no%20background.svg">
+        <ul class="ACWB-info-list">
+          <li class="ACWB-info-list-items">Jacksonville, FL</li>
+          <li class="ACWB-info-list-items"><a class="phone-anchor" href="malito:AtlanticCoastWebDesigns@gmail.com">ACWDesigns@gmail.com</a></li>
+          <li class="ACWB-info-list-items"><a class="phone-anchor" href="tel:9042368703" >(904)-236-8703</a></li>
+        </ul>
+      </div>
+        <div class="ACWB-nav-desktop">
+        <h3 class="bottom-nav-word">Navigation</h3>
+        <ul class="navigation-info-list">
+          <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./index.html">Home</a></li>
+          <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./about.html">About</a></li>
+          <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./services.html">Services</a></li>
+          <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="ACWB-nav-desktop">
+        <h3 class="bottom-nav-word">Services</h3>
+        <ul class="navigation-info-list">
+          <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./services.html">Web Design & Development</a></li>
+          <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./services.html">Website Maintenance</a></li>
+          <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./services.html">Web Analytics</a></li>
+          <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./services.html">SEO Services</a></li>
+          <li class="nav-bottom-list"><a class="nav-bottom-anchor" href="./services.html">Logos & Grahics Design</a></li>
+        </ul>
       </div>
     </div>
-
-
-</footer>
-
-
-
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"
- integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
-
-<script src="./ACWB.js"></script>
-</html>
+    </div>
+    <div class="bottom-footer-block">
+      <div class="bottom-footer">
+            <h5>Copyright ©2021 | Atlantic Coast Web Designs | All Rights Reserved</h5>
+      </div>
+      </div>
+  </div>
+    </div>
+  </footer>
+  
+  
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+   integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+  
+  <script src="./ACWB.js"></script>
+  </html>
