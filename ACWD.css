@@ -1849,7 +1849,7 @@ LANDING START
   top: 6rem;
 }
 
-.bottom-footer-block, .bottom-footer-block2 {
+.bottom-footer-block, .bottom-footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2008,7 +2008,7 @@ FORM
 
 
 
-.container {
+#container {
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
