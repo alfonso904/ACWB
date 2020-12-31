@@ -277,6 +277,11 @@ html {
   
 }
 
+.pricing-block {
+  margin-top: -2.5rem;
+  
+}
+
 .desktop-pricing-block {
   width: 50%;
   display: -webkit-box;
