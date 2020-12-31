@@ -409,6 +409,10 @@ html {
   color: #2c2c2cea;
 }
 
+.rates-block-container:hover, .rates-block-container2:hover {
+  transform: scale(1.1);
+  transition: 200ms ease-in-out 200ms;
+}
 
 .rates-container-desktop {
   display: inline-flex;
@@ -1183,6 +1187,7 @@ CONTACT US PAGE
   position: relative;
   z-index: 2000;
 }
+
 
 
 
