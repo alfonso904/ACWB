@@ -1345,7 +1345,7 @@ body.no-scroll {
 .logo-mobile {
   width: 13rem;
   max-width: 17rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   margin-left: 0.5rem;
   padding-bottom: 1rem;
 }
@@ -1396,7 +1396,7 @@ LANDING START
 .main-landing-page {
   background-image: linear-gradient(rgb(17, 39, 95), #2047aa);
   margin-top: -1.36rem;
-  height: 45rem;
+  height: 45.5rem;
 }
 
 .landing-header {
