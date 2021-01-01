@@ -634,7 +634,7 @@ footer {
   padding-bottom: 1.5rem;
 }
 
-.nav-bottom-anchor {
+.nav-bottom-anchor, .nav-bottom-services {
   text-decoration: none;
   color: #D7D7D7;
 }
@@ -1856,7 +1856,7 @@ LANDING START
   padding-bottom: 1.5rem;
 }
 
-.nav-bottom-anchor {
+.nav-bottom-anchor, .nav-bottom-services {
   text-decoration: none;
   color: #D7D7D7;
 }
