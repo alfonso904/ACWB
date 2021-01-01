@@ -1648,6 +1648,7 @@ LANDING START
   margin-top: 2.5rem;
   margin-bottom: 1rem;
   display: flex;
+  box-shadow: 2px 4px 29px 3px rgba(0, 0, 0, 0.1);
 }
 
 .learn-more-about {
@@ -1683,7 +1684,6 @@ LANDING START
 
 .rates-block-container {
   width: 100%;
-  margin-bottom: 2rem;
 }
 
 .rates-content {
@@ -1773,7 +1773,7 @@ LANDING START
 .rates-block-container2 {
   width: 100%;
   margin-top: 5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .dot3 {
