@@ -1192,7 +1192,15 @@ CONTACT US PAGE
   z-index: 2000;
 }
 
+.contact-page-anchor {
+  text-decoration: none;
+  color: #4b4b4be0;
+}
 
+.contact-page-anchor:hover {
+  text-decoration: underline;
+  color: #4b4b4be0;
+}
 
 
 
