@@ -6,7 +6,7 @@
 
 
 
-@media only screen and (min-width: 851px) {
+@media only screen and (min-width: 1024px) {
  
 
 
@@ -1254,7 +1254,9 @@ MOBILE CODE
 
 
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1024px) {
+
+
 
 
 body.no-scroll {
