@@ -36,6 +36,8 @@ html {
 #page-wrap-body {
   width: 1100px;
   margin: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 #page-wrap-footer {
@@ -673,6 +675,8 @@ ABOUT US PAGE
 
 
 
+
+
 .main-landing-page-about-us {
   margin-top: -1.19rem;
   height: 10rem; 
@@ -716,8 +720,6 @@ ABOUT US PAGE
 #about-me-page-pic2 {
   margin-top: 1rem !important;
 }
-
-
 
 .giving-header {
   color: #2c2c2cea;
