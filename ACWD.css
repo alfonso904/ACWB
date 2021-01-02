@@ -18,38 +18,28 @@ html {
   background-image: linear-gradient(rgb(17, 39, 95), #2047aa);
   height: 60rem;
   width: 100%;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 #page-wrap-container-alt {
   background-image: linear-gradient(rgb(17, 39, 95), #2047aa);
   height: 30rem;
   width: 100%;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 #page-wrap-container-footer {
   background-image: linear-gradient(rgb(17, 39, 95), #2047aa);
   height: 43rem;
   width: 100%;
-  padding: 0;
-  box-sizing: border-box;
 }
   
 #page-wrap {
   width: 1000px;
   margin: auto;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 #page-wrap-body {
   width: 1100px;
   margin: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 #page-wrap-footer {
