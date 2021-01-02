@@ -1547,6 +1547,7 @@ LANDING START
   text-align: center;
   margin: auto;
   width: 80%;
+  max-width: 30rem;
   color: #4b4b4be0;
   font-weight: 300;
   font-size: 1.1rem;
