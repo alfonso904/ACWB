@@ -16,16 +16,22 @@ html {
 #page-wrap-container {
   background-image: linear-gradient(rgb(17, 39, 95), #2047aa);
   height: 60rem;
+  width: 100%;
+  padding: 0;
 }
 
 #page-wrap-container-alt {
   background-image: linear-gradient(rgb(17, 39, 95), #2047aa);
   height: 30rem;
+  width: 100%;
+  padding: 0;
 }
 
 #page-wrap-container-footer {
   background-image: linear-gradient(rgb(17, 39, 95), #2047aa);
   height: 43rem;
+  width: 100%;
+  padding: 0;
 }
   
 #page-wrap {
