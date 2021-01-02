@@ -9,9 +9,6 @@
 @media only screen and (min-width: 768px) {
  
 
-  div {
-    box-sizing: border-box;
-    }
 
 html {
   overflow-x: hidden;
@@ -22,6 +19,7 @@ html {
   height: 60rem;
   width: 100%;
   padding: 0;
+  box-sizing: border-box;
 }
 
 #page-wrap-container-alt {
@@ -29,6 +27,7 @@ html {
   height: 30rem;
   width: 100%;
   padding: 0;
+  box-sizing: border-box;
 }
 
 #page-wrap-container-footer {
@@ -36,11 +35,14 @@ html {
   height: 43rem;
   width: 100%;
   padding: 0;
+  box-sizing: border-box;
 }
   
 #page-wrap {
   width: 1000px;
   margin: auto;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #page-wrap-body {
