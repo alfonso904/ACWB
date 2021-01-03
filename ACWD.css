@@ -1446,11 +1446,7 @@ LANDING START
   margin-left: 1.5rem;
   border-radius: 6px;
   font-size: .75rem;
-}
-
-.call-us-anchor {
   text-decoration: none;
-  color: #2c2c2cea;
   display: inline-block;
   width: 9rem;
   height: 2.8rem;
@@ -1773,11 +1769,7 @@ LANDING START
   margin-bottom: 3rem;
   border-radius: 6px;
   font-size: .75rem;
-}
-
-.call-us-anchor2 {
   text-decoration: none;
-  color: #e9e9e9;
   display: inline-block;
   width: 9rem;
   height: 2.8rem;
@@ -2130,17 +2122,12 @@ input[type=text], textarea {
   margin-bottom: 3rem;
   border-radius: 6px;
   font-size: .75rem;
-}
-
-.call-us-anchor3 {
   text-decoration: none;
-  color: #e9e9e9;
   display: inline-block;
   width: 6rem;
   height: 2.8rem;
   line-height: 2.8rem;
 }
-
 .call-us-button3:hover {
   background-image: linear-gradient(#6e6e6e, #6e6e6e);
   transition: 0.5s;
@@ -2561,11 +2548,7 @@ LANDING START
   margin-left: 1.5rem;
   border-radius: 6px;
   font-size: .75rem;
-}
-
-.call-us-anchor {
   text-decoration: none;
-  color: #2c2c2cea;
   display: inline-block;
   width: 9rem;
   height: 2.8rem;
@@ -2893,11 +2876,7 @@ LANDING START
   margin-bottom: 3rem;
   border-radius: 6px;
   font-size: .75rem;
-}
-
-.call-us-anchor2 {
   text-decoration: none;
-  color: #e9e9e9;
   display: inline-block;
   width: 9rem;
   height: 2.8rem;
@@ -3250,11 +3229,7 @@ input[type=text], textarea {
   margin-bottom: 3rem;
   border-radius: 6px;
   font-size: .75rem;
-}
-
-.call-us-anchor3 {
   text-decoration: none;
-  color: #e9e9e9;
   display: inline-block;
   width: 6rem;
   height: 2.8rem;
