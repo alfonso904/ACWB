@@ -113,7 +113,6 @@ html {
 .call-us-button {
   background-color: #ecebeb;
   border: none;
-  color: #D7D7D7;
   margin-top: .5rem;
   margin-bottom: 3rem;
   margin-left: 1.5rem;
@@ -530,7 +529,7 @@ html {
 .call-us-button2 {
   background-image: linear-gradient(to bottom right, #16337c, #2047aa);
   border: none;
-  color: #D7D7D7;
+  color: #e9e9e9;
   margin-top: .5rem;
   margin-bottom: 3rem;
   border-radius: 6px;
@@ -926,7 +925,7 @@ input[type=text], textarea {
 .call-us-button3 {
   background-image: linear-gradient(to bottom right, #16337c, #2047aa);
   border: none;
-  color: #D7D7D7;
+  color: #e9e9e9;
   margin-top: .5rem;
   margin-bottom: 3rem;
   border-radius: 6px;
@@ -1440,7 +1439,7 @@ LANDING START
 .call-us-button {
   background-color: #ecebeb;
   border: none;
-  color: #D7D7D7;
+  color: #2c2c2cea;
   margin-top: .5rem;
   margin-bottom: 3rem;
   margin-left: 1.5rem;
@@ -1764,7 +1763,7 @@ LANDING START
 .call-us-button2 {
   background-image: linear-gradient(to bottom right, #16337c, #2047aa);
   border: none;
-  color: #D7D7D7;
+  color: #e9e9e9;
   margin-top: .5rem;
   margin-bottom: 3rem;
   border-radius: 6px;
@@ -2117,7 +2116,7 @@ input[type=text], textarea {
 .call-us-button3 {
   background-image: linear-gradient(to bottom right, #16337c, #2047aa);
   border: none;
-  color: #D7D7D7;
+  color: #e9e9e9;
   margin-top: .5rem;
   margin-bottom: 3rem;
   border-radius: 6px;
@@ -2542,7 +2541,7 @@ LANDING START
 .call-us-button {
   background-color: #ecebeb;
   border: none;
-  color: #D7D7D7;
+  color: #2c2c2cea;
   margin-top: .5rem;
   margin-bottom: 3rem;
   margin-left: 1.5rem;
@@ -2871,7 +2870,7 @@ LANDING START
 .call-us-button2 {
   background-image: linear-gradient(to bottom right, #16337c, #2047aa);
   border: none;
-  color: #D7D7D7;
+  color: #e9e9e9;
   margin-top: .5rem;
   margin-bottom: 3rem;
   border-radius: 6px;
@@ -3224,12 +3223,13 @@ input[type=text], textarea {
 .call-us-button3 {
   background-image: linear-gradient(to bottom right, #16337c, #2047aa);
   border: none;
-  color: #D7D7D7;
+  color: #e9e9e9;
   margin-top: .5rem;
   margin-bottom: 3rem;
   border-radius: 6px;
   font-size: .75rem;
   text-decoration: none;
+  color: #e9e9e9;
   display: inline-block;
   width: 6rem;
   height: 2.8rem;
