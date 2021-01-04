@@ -848,7 +848,7 @@ MOBILE CODE
     }
     
     
-    input[type=text], textarea { 
+    input[type=text], [type=tel], [type=email], textarea { 
       width: 98%;
       border: 1px solid #ccc; 
       border-radius: 6px; 
@@ -1956,7 +1956,7 @@ MOBILE CODE
     }
     
     
-    input[type=text], textarea { 
+    input[type=text], [type=tel], [type=email], textarea { 
       width: 98%;
       border: 1px solid #ccc; 
       border-radius: 6px; 
@@ -3083,7 +3083,7 @@ FORM
 }
 
 
-input[type=text], textarea { 
+input[type=text], [type=tel], [type=email], textarea { 
   width: 98%;
   border: 1px solid #ccc; 
   border-radius: 6px; 
