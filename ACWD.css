@@ -3,6 +3,10 @@
   font-family: 'Nunito Sans', sans-serif;
 }
 
+button {
+    cursor:pointer;
+}
+
 
 
 
@@ -515,7 +519,6 @@ MOBILE CODE
     }
     
     .monthly-fee {
-      
       font-weight: 700;
       font-size: 1.75rem;
       color: #2047aa;
@@ -762,7 +765,7 @@ MOBILE CODE
       margin: auto;
       display: flex;
       justify-content: center;
-      padding-top: 2.5rem;
+      padding-top: 3rem;
     }
     
     .contact-info-container-block {
@@ -1870,7 +1873,7 @@ MOBILE CODE
       margin: auto;
       display: flex;
       justify-content: center;
-      padding-top: 2.5rem;
+      padding-top: 3rem;
     }
     
     .contact-info-container-block {
@@ -2213,7 +2216,6 @@ MOBILE CODE
 
 
 @media only screen and (min-width: 1024px) {
- 
 
 
 html {
@@ -2628,8 +2630,8 @@ html {
 }
 
 .rates-block-container:hover, .rates-block-container2:hover {
-  transform: scale(1.1);
-  transition: 200ms ease-in-out 200ms;
+  transform: scale(1.08);
+  transition: 125ms ease-in-out 125ms;
 }
 
 .rates-container-desktop {
@@ -2999,7 +3001,7 @@ ABOUT US PAGE
   margin: auto;
   display: flex;
   justify-content: center;
-  padding-top: 2.5rem;
+  padding-top: 5rem;
 }
 
 .contact-info-container-block {
