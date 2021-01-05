@@ -3158,7 +3158,7 @@ input[type=text], [type=tel], [type=email], textarea {
 
 .about-me-contact {
   display: flex;
-  width: 70%;
+  width: 80%;
   margin-top: 5rem;
   margin-left: auto;
   margin-right: auto;
