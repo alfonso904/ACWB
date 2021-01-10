@@ -3109,7 +3109,7 @@ FORM
   box-shadow: 2px 4px 29px 3px rgba(0, 0, 0, 0.1);
   width: 40rem;
   position: relative;
-  z-index: 2000;
+  z-index: 2008;
   border-radius: 20px !important;
 }
 
@@ -3444,7 +3444,7 @@ CONTACT US PAGE
 }
 
 .container-contact-us-page {
-  border-radius: 10px;
+  border-radius: 20px;
   margin-bottom: 1rem;
   box-shadow: 2px 4px 29px 3px rgba(0, 0, 0, 0.1);
   width: 25rem;
