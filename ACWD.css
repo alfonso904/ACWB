@@ -836,7 +836,7 @@ MOBILE CODE
     
     
     #container {
-      border-radius: 10px;
+      border-radius: 20px;
       margin-left: auto;
       margin-right: auto;
       margin-top: 5rem;
@@ -1959,7 +1959,7 @@ MOBILE CODE
     
     
     #container {
-      border-radius: 10px;
+      border-radius: 20px;
       margin-left: auto;
       margin-right: auto;
       margin-top: 5rem;
@@ -3105,12 +3105,16 @@ FORM
 
 
 .container {
-  border-radius: 10px;
   margin-bottom: 1rem;
   box-shadow: 2px 4px 29px 3px rgba(0, 0, 0, 0.1);
   width: 40rem;
   position: relative;
   z-index: 2000;
+  border-radius: 20px !important;
+}
+
+#container {
+  border-radius: 20px !important;
 }
 
 .form-name {
