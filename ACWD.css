@@ -2977,6 +2977,10 @@ ABOUT US PAGE
   display: flex;
 }
 
+.landing-desktop-text {
+  margin-left: 1.25rem;
+}
+
 .about-me-page-pic {
   width: 105%;
   margin-left: auto;
@@ -3049,8 +3053,6 @@ ABOUT US PAGE
   justify-content: center;
   width: 100%;
 }
-
-
 
 .giving-header2 {
   width: 50%;
