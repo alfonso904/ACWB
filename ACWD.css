@@ -723,7 +723,10 @@ MOBILE CODE
     .about-me-page-pic {
       width: 70%;
       max-width: 25rem;
-      margin-left: 1.5rem;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: center;
       margin-top: 1.5rem;
       border-radius: 30px;
       box-shadow: 2px 4px 29px 3px rgba(0, 0, 0, 0.1);
@@ -2651,7 +2654,7 @@ a.nav__link:before, a.nav-bottom-anchor:before {
 
 .our-plans-block {
   width: 100%;
-  margin-top: 6.5rem;
+  margin-top: 7.5rem;
   margin-bottom: 2.5rem;
 }
 
