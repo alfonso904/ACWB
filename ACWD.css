@@ -700,11 +700,14 @@ MOBILE CODE
     *********************/
     
     
-    .circle-div-about, .filler-block-about {
+    .circle-div-about {
      position: relative;
      top: -41.2rem;
      z-index: 0;
+     border-radius: 50%;
+     width: 100%;
     }
+
     
     
     .main-landing-page-about-us {
