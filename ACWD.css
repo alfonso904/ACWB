@@ -50,7 +50,6 @@ MOBILE CODE
     .nav__list {
       display: flex;
       align-items: baseline;
-      text-transform: uppercase;
       justify-content: space-around;
       flex-direction: row;
       padding: 1em 0.5em; 
@@ -117,9 +116,9 @@ MOBILE CODE
     
     .nav__link {
       transition-delay: 500ms; 
-      color: #DBDBDB;
+      color: #D7D7D7;
       font-weight: 200;
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
     
     .nav--active .nav__link {
@@ -1176,7 +1175,6 @@ MOBILE CODE
     .nav__list {
       display: flex;
       align-items: baseline;
-      text-transform: uppercase;
       justify-content: space-around;
       flex-direction: row;
       padding: 1em 0.5em; 
@@ -1247,7 +1245,7 @@ MOBILE CODE
       transition-delay: 500ms; 
       color: #DBDBDB;
       font-weight: 200;
-      font-size: 0.9rem;
+      font-size: 1.1rem;
     }
     
     .nav--active .nav__link {
@@ -2334,8 +2332,8 @@ html {
   position: relative;
 }
 
-.nav__link:hover {
-    padding-bottom: 3px;
+.nav__link:hover, .nav-bottom-anchor:hover {
+    padding-bottom: 7px;
 }
 
 a.nav__link:hover:before, a.nav-bottom-anchor:hover:before {
@@ -2353,7 +2351,8 @@ a.nav__link:before, a.nav-bottom-anchor:before {
     background-color: #DBDBDB;
     visibility: hidden;
     transform: scaleX(0);
-    transition: all 0.2s ease-in-out;
+    transition: all 0.125s ease-in-out;
+    
   }
 
 .landing-header {
@@ -2915,7 +2914,7 @@ footer {
   position: relative;
 }
 
-.nav-bottom-anchor:hover, .phone-anchor:hover {
+.phone-anchor:hover {
   padding-bottom: 3px;
 }
 
