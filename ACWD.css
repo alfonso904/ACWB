@@ -33,13 +33,15 @@ MOBILE CODE
     
     .navigation {
       background-color: rgb(17, 39, 95);
+      position: relative;
+      z-index: 6000;
     }
     
     .nav {
       position: fixed;
       width: 100%;
       height: auto;
-      z-index: 5;
+      z-index: 5500;
       transition: all 0.5s ease-in-out;
       font-weight: 400;
       background-color: rgb(17, 39, 95);
@@ -699,7 +701,9 @@ MOBILE CODE
     
     
     .circle-div-about, .filler-block-about {
-      display: none;
+     position: relative;
+     top: -41.2rem;
+     z-index: 0;
     }
     
     
@@ -727,9 +731,11 @@ MOBILE CODE
       margin-right: auto;
       display: flex;
       justify-content: center;
-      margin-top: 1.5rem;
+      margin-top: 2.5rem;
       border-radius: 30px;
       box-shadow: 2px 4px 29px 3px rgba(0, 0, 0, 0.1);
+      position: relative;
+      z-index: 2000;
     }
     
     .hidden-character {
@@ -940,10 +946,12 @@ MOBILE CODE
       max-width: 25rem;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 1.5rem;
+      margin-top: 2.5rem;
       border-radius: 50px;
       display: flex;
       justify-content: center;
+      position: relative;
+      z-index: 2000;
     }
 
     .about-me-page-pic-services4 {
@@ -1148,6 +1156,8 @@ MOBILE CODE
     
     .navigation {
       background-color:rgb(17, 39, 95);
+      position: relative;
+      z-index: 5000;
     }
     
     .nav {
@@ -1822,7 +1832,9 @@ MOBILE CODE
     
     
     .circle-div-about, .filler-block-about {
-      display: none;
+      position: relative;
+     top: -41.5rem;
+     z-index: 0;
     }
     
     
@@ -1850,9 +1862,11 @@ MOBILE CODE
       margin-right: auto;
       display: flex;
       justify-content: center;
-      margin-top: 1.5rem;
+      margin-top: 2.5rem;
       border-radius: 50px;
       box-shadow: 2px 4px 29px 3px rgba(0, 0, 0, 0.1);
+      position: relative;
+      z-index: 2000;
     }
     
     .hidden-character {
@@ -2065,10 +2079,12 @@ MOBILE CODE
       max-width: 35rem;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 1.5rem;
+      margin-top: 2.5rem;
       border-radius: 50px;
       display: flex;
       justify-content: center;
+      position: relative;
+      z-index: 2000;
     }
     
     .highlight-text {
