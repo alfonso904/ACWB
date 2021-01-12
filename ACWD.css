@@ -760,7 +760,7 @@ MOBILE CODE
       width: 80%;
     }
     
-    .about-me-page-section, .about-me-page-section2, .about-me-page-section-services {
+    .about-me-page-section, .about-me-page-section2, .about-me-page-section-services, .about-me-page-section-services-design {
       margin-left: 1.5rem;
       color: #4b4b4be0;
       font-weight: 300;
@@ -768,6 +768,7 @@ MOBILE CODE
       line-height: 1.5rem;
       width: 80%;
     }
+
     
     .about-me-page-section2, .about-me-page-section-services {
       margin-bottom: 3rem;
@@ -1892,7 +1893,7 @@ MOBILE CODE
       width: 80%;
     }
     
-    .about-me-page-section, .about-me-page-section2, .about-me-page-section-services {
+    .about-me-page-section, .about-me-page-section2, .about-me-page-section-services, .about-me-page-section-services-design{
       margin-left: 1.5rem;
       color: #4b4b4be0;
       font-weight: 300;
@@ -3341,7 +3342,7 @@ z-index: 2000;
   margin-left: 2rem;
 }
 
-.about-me-page-section-services {
+.about-me-page-section-services, .about-me-page-section-services-design {
   color: #4b4b4be0;
   font-weight: 300;
   font-size: 1.1rem;
