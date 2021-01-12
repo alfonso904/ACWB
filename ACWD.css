@@ -3245,6 +3245,9 @@ SERVICES PAGE
 *************************/
 
 
+.services-body {
+  width: 60%;
+}
 
   
 .services-desktop-container, .search-desktop {
