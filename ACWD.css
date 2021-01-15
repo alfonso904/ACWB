@@ -34,7 +34,7 @@ MOBILE CODE
     .navigation {
       background-color: rgb(17, 39, 95);
       position: relative;
-      z-index: 6000;
+      z-index: 60000;
     }
     
     .nav {
@@ -758,6 +758,8 @@ MOBILE CODE
       font-size: 1.75rem;
       font-weight: 900;
       width: 80%;
+      position: relative;
+      z-index: 50000;
     }
     
     .about-me-page-section, .about-me-page-section2, .about-me-page-section-services, .about-me-page-section-services-design {
@@ -944,7 +946,7 @@ MOBILE CODE
     
     
     
-    .about-me-page-pic-services, .about-me-page-pic-services2, .about-me-page-pic-services3, .about-me-page-pic-services4 {
+    .about-me-page-pic-services, .about-me-page-pic-services2, .about-me-page-pic-services3, .about-me-page-pic-services4, .about-me-page-pic-contact {
       width: 80%;
       max-width: 25rem;
       margin-left: auto;
@@ -969,13 +971,18 @@ MOBILE CODE
       text-decoration: none;
       color: #2047aa;
     }
+
+    .about-me-page-pic-services {
+      margin-top: -1.75rem !important;
+      margin-bottom: -3.5rem !important;
+    }
     
     .about-me-page-pic-services2 {
       width: 80%;
       margin-top: 7rem;
     }
     
-    .about-me-page-pic-services3, .about-me-page-pic-services4 {
+    .about-me-page-pic-services4 {
       width: 80%;
       margin-top: 7rem
     }
@@ -985,7 +992,8 @@ MOBILE CODE
     }
     
     .about-me-page-pic-services3 {
-      margin-top: 6rem;
+      margin-top: 5rem !important;
+      width: 80%;
     }
     
     .pricing-block-list-service {
@@ -1162,7 +1170,7 @@ MOBILE CODE
     .navigation {
       background-color:rgb(17, 39, 95);
       position: relative;
-      z-index: 5000;
+      z-index: 60000;
     }
     
     .nav {
@@ -1891,6 +1899,8 @@ MOBILE CODE
       font-size: 1.75rem;
       font-weight: 900;
       width: 80%;
+      position: relative;
+      z-index: 50000;
     }
     
     .about-me-page-section, .about-me-page-section2, .about-me-page-section-services, .about-me-page-section-services-design{
@@ -2078,7 +2088,7 @@ MOBILE CODE
     
     
     
-    .about-me-page-pic-services, .about-me-page-pic-services2, .about-me-page-pic-services3, .about-me-page-pic-services4 {
+    .about-me-page-pic-services, .about-me-page-pic-services2, .about-me-page-pic-services3, .about-me-page-pic-services4, .about-me-page-pic-contact {
       width: 80%;
       max-width: 35rem;
       margin-left: auto;
@@ -2095,6 +2105,11 @@ MOBILE CODE
       font-weight: 900;
       text-decoration: none;
       color: #2047aa;
+    }
+
+    .about-me-page-pic-services {
+      margin-top: -2.5rem;
+      margin-bottom: -4.5rem;
     }
     
     .about-me-page-pic-services2 {
@@ -3267,13 +3282,16 @@ z-index: 2000;
   margin-top: 8rem;
 }
 
-.about-me-page-pic-services {
-width: 30rem;
+.about-me-page-pic-services, .about-me-page-pic-contact {
+width: 31rem;
 border-radius: 50px;
-margin-top: 8rem;
+margin-top: 10rem;
 position: relative;
 z-index: 2000;
+}
 
+.about-me-page-pic-contact {
+  width: 30rem !important;
 }
 
 .pricing-block-list-service {
@@ -3322,9 +3340,8 @@ z-index: 2000;
  }
 
  .about-me-page-pic-services3 {
-  max-width: 30rem;
+  width: 35rem;
   border-radius: 50px;
-  width: 115% !important;
  }
 
  .desktop-lifetime-updates-container {
@@ -3342,7 +3359,7 @@ z-index: 2000;
 
 .right-side-life-time-updates {
   width: 60%;
-  margin-left: 2rem;
+  margin-left: 5.5rem;
 }
 
 .about-me-page-section-services, .about-me-page-section-services-design {
