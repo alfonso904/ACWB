@@ -334,8 +334,9 @@ MOBILE CODE
       margin-top: 7rem;
     }
     
-    .what-we-do-block2, .what-we-do-block3, .what-we-do-block3, .what-we-do-block4 {
+    .what-we-do-block2, .what-we-do-block3, .what-we-do-block4 {
       width: 100%;
+      margin-bottom: 4rem;
     }
     
     .what-we-do-subsections, .me-name-header {
@@ -360,7 +361,8 @@ MOBILE CODE
     .money-icon {
       width: 95%;
       max-width: 35rem;
-      padding-top: 4rem;
+      padding-top: 1.5rem;
+      padding-bottom: .5rem;
       margin: auto;
       display: flex;
     }
@@ -784,7 +786,7 @@ MOBILE CODE
       margin: auto;
       display: flex;
       justify-content: center;
-      padding-top: 3rem;
+      padding-top: 1.5rem;
     }
     
     .contact-info-container-block {
@@ -860,8 +862,12 @@ MOBILE CODE
     .form-name {
       font-weight: 900;
       font-size: 1.75rem;
-      margin-bottom: -0.5rem;
-      margin-left: 5%;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
     }
     
     .form-total {
@@ -2002,8 +2008,12 @@ MOBILE CODE
     .form-name {
       font-weight: 900;
       font-size: 1.75rem;
-      margin-bottom: -0.5rem;
-      margin-left: 5%;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
     }
     
     .form-total {
@@ -3166,8 +3176,8 @@ FORM
 .form-name {
   font-weight: 900;
   font-size: 1.75rem;
-  margin-bottom: -0.5rem;
-  
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   display: flex;
   justify-content: center;
   margin-left: auto;
