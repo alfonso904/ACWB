@@ -989,6 +989,8 @@ MOBILE CODE
       margin-top: 8.5rem;
       border-bottom-left-radius: 0px !important;
       border-bottom-right-radius: 0px !important;
+      border-top-left-radius: 30px !important;
+      border-top-right-radius: 30px !important;
     }
     
     .about-me-page-pic-services3 {
@@ -2124,12 +2126,14 @@ MOBILE CODE
     
     .about-me-page-pic-services4 {
       margin-top: 8.5rem;
+      border-top-left-radius: 30px !important;
+      border-top-right-radius: 30px !important;
+      border-bottom-left-radius: 0px !important;
+      border-bottom-right-radius: 0px !important;
     }
     
     .about-me-page-pic-services3 {
       margin-top: 6rem;
-      border-bottom-left-radius: 0px !important;
-      border-bottom-right-radius: 0px !important;
     }
     
     .pricing-block-list-service {
@@ -3163,7 +3167,11 @@ FORM
   font-weight: 900;
   font-size: 1.75rem;
   margin-bottom: -0.5rem;
-  margin-left: 5%;
+  
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .form-total {
@@ -3425,8 +3433,8 @@ z-index: 2000;
 .about-me-page-pic-services4 {
   width: 32rem;
   margin-top: 8rem;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+  border-top-left-radius: 30px !important;
+  border-top-right-radius: 30px !important;
   border-bottom-right-radius: 100px;
 }
 
