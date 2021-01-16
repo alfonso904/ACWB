@@ -809,8 +809,8 @@ MOBILE CODE
     }
     
     .contact-info-pic {
-      width: 2.5rem;
-      height: 2.5rem;
+      max-width: 2.5rem;
+      max-height: 2.5rem;
     }
     
     .contact-info-header {
