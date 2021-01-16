@@ -896,8 +896,7 @@ MOBILE CODE
       display: flex;
       justify-content: center;
       height: 2rem;
-      width: 88%;
-      margin-left: 5%;
+      width: 95%;
     }
     
     .form-button {
@@ -907,8 +906,7 @@ MOBILE CODE
     
     .text-area {
       height: 11rem;
-      width: 88%;
-      margin-left: 5%;
+      width: 95%;
     }
     
     .button-div-4 {
@@ -2042,8 +2040,7 @@ MOBILE CODE
       display: flex;
       justify-content: center;
       height: 2rem;
-      width: 88%;
-      margin-left: 5%;
+      width: 95%;
     }
     
     .form-button {
@@ -2053,8 +2050,7 @@ MOBILE CODE
     
     .text-area {
       height: 11rem;
-      width: 88%;
-      margin-left: 5%;
+      width: 95%;
     }
     
     .button-div-4 {
@@ -3210,8 +3206,7 @@ input[type=text], [type=tel], [type=email], textarea {
   display: flex;
   justify-content: center;
   height: 2rem;
-  width: 88%;
-  margin-left: 5%;
+  width: 95%;
 }
 
 .form-button {
@@ -3221,8 +3216,7 @@ input[type=text], [type=tel], [type=email], textarea {
 
 .text-area {
   height: 11rem;
-  width: 88%;
-  margin-left: 5%;
+  width: 95%;
 }
 
 .button-div-4 {
