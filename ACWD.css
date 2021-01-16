@@ -2040,7 +2040,7 @@ MOBILE CODE
       display: flex;
       justify-content: center;
       height: 2rem;
-      width: 95%;
+      width: 100%;
     }
     
     .form-button {
@@ -2050,7 +2050,7 @@ MOBILE CODE
     
     .text-area {
       height: 11rem;
-      width: 95%;
+      width: 100%;
     }
     
     .button-div-4 {
@@ -3206,7 +3206,7 @@ input[type=text], [type=tel], [type=email], textarea {
   display: flex;
   justify-content: center;
   height: 2rem;
-  width: 95%;
+  width: 100%;
 }
 
 .form-button {
@@ -3216,7 +3216,7 @@ input[type=text], [type=tel], [type=email], textarea {
 
 .text-area {
   height: 11rem;
-  width: 95%;
+  width: 100%;
 }
 
 .button-div-4 {
@@ -3354,8 +3354,8 @@ z-index: 2000;
  }
 
  .about-me-page-pic-services3 {
-  width: 35rem;
-  border-radius: 50px;
+  max-width: 35rem;
+  width: 138%;
  }
 
  .desktop-lifetime-updates-container {
