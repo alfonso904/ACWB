@@ -3371,7 +3371,7 @@ z-index: 2000;
 
  .about-me-page-pic-services3 {
   max-width: 35rem;
-  width: 138%;
+  width: 120%;
  }
 
  .desktop-lifetime-updates-container {
@@ -3384,12 +3384,12 @@ z-index: 2000;
 }
 
 .left-side-lifetime-updates {
-  width: 40%;
+  width: 50%;
 }
 
 .right-side-life-time-updates {
   width: 60%;
-  margin-left: 5.5rem;
+  margin-left: 4rem;
 }
 
 .about-me-page-section-services, .about-me-page-section-services-design {
