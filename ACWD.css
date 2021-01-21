@@ -244,10 +244,10 @@ MOBILE CODE
     }
     
     .computer {
-      width: 75%;
-      max-width: 25rem;
-      margin-top: 3rem;
-      right: 1rem;
+      width: 85%;
+      max-width: 28rem;
+      margin-top: 5rem;
+      right: 1.75rem;
       position: absolute;
     }
     
@@ -2420,7 +2420,7 @@ a.nav__link:before, a.nav-bottom-anchor:before {
   font-size: 1rem;
   margin-left: 1.5rem;
   margin-right: 6rem;
-  max-width: 50%;
+  max-width: 30%;
   line-height: 1.5rem;
 }
 
@@ -2450,10 +2450,10 @@ a.nav__link:before, a.nav-bottom-anchor:before {
 }
 
 .computer-desktop {
-  margin-left: 25rem;
-  margin-top: -15rem;
-  max-width: 38rem;
-  width: 55%;
+  margin-left: 23rem;
+  margin-top: -20rem;
+  max-width: 40rem;
+  width: 70%;
   position: absolute;
   margin-right: 1.5rem;
 }
