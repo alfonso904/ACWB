@@ -2414,7 +2414,7 @@ a.nav__link:before, a.nav-bottom-anchor:before {
   margin-left: 1.5rem;
   margin-right: 6rem;
   padding-top: 1.5rem;
-  max-width: 50%;
+  max-width: 40%;
   letter-spacing: 2px !important;
 }
 
@@ -2454,7 +2454,7 @@ a.nav__link:before, a.nav-bottom-anchor:before {
 }
 
 .computer-desktop {
-  margin-left: 23rem;
+  margin-left: 22rem;
   margin-top: -17rem;
   max-width: 40rem;
   width: 70%;
