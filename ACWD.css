@@ -2595,12 +2595,10 @@ a.nav__link:before, a.nav-bottom-anchor:before {
 .money-icon {
   margin-top: 10rem;
   width: 35rem;
-  
 }
 
 .pricing-block {
   margin-top: -2rem;
-  
 }
 
 .desktop-pricing-block {
@@ -2614,12 +2612,10 @@ a.nav__link:before, a.nav-bottom-anchor:before {
 
 .desktop-pricing-block2 {
   margin-top: 14rem;
-  
 }
 
 .desktop-pricing-block-container {
   width: 100%;
-  
 }
 
 .desktop-pricing-block3 {
@@ -3453,6 +3449,7 @@ z-index: 2000;
 .about-me-page-pic-services4 {
   width: 32rem;
   margin-top: 8rem;
+  margin-right: 2rem;
   border-top-left-radius: 30px !important;
   border-top-right-radius: 30px !important;
   border-bottom-right-radius: 100px;
