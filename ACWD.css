@@ -209,6 +209,7 @@ MOBILE CODE
       margin-right: 6rem;
       padding-top: 1.5rem;
       width: 90%;
+      max-width: 430px;
       letter-spacing: 2px !important;
     }
     
@@ -245,10 +246,13 @@ MOBILE CODE
     
     .computer {
       width: 85%;
-      max-width: 23rem;
-      margin-top: 5rem;
-      right: 1.75rem;
-      position: absolute;
+      max-width: 25rem;
+      margin-top: -1rem;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+      display: flex;
+      
     }
     
     .computer-desktop {
