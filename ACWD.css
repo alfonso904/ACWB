@@ -198,7 +198,7 @@ MOBILE CODE
     .main-landing-page {
       background-image: linear-gradient(rgb(17, 39, 95), #2047aa);
       margin-top: -1.36rem;
-      height: 46rem;
+      height: 42.5rem;
     }
     
     .landing-header {
@@ -245,7 +245,7 @@ MOBILE CODE
     
     .computer {
       width: 85%;
-      max-width: 28rem;
+      max-width: 23rem;
       margin-top: 5rem;
       right: 1.75rem;
       position: absolute;
@@ -267,7 +267,7 @@ MOBILE CODE
       background-color: white;
       border-radius: 100%;
       position: absolute;
-      top: 47.8rem;
+      top: 44.3rem;
       display: inline-block; 
     }
     
