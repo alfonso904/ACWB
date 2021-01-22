@@ -2320,6 +2320,7 @@ html {
 #page-wrap-container {
   background-image: linear-gradient(rgb(17, 39, 95), #2047aa);
   height: 60rem;
+  min-height: 51rem;
   width: 100%;
 }
 
