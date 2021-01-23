@@ -2338,7 +2338,7 @@ html {
 }
 
 #page-wrap-container-footer {
-  background-image: linear-gradient(rgb(17, 39, 95), #2047aa);
+  background-image: linear-gradient(to top, rgb(17, 39, 95), #2047aa);
   height: 43rem;
   width: 100%;
 }
