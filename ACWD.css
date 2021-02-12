@@ -1137,11 +1137,11 @@ MOBILE CODE
       color: #4b4b4be0;
     }
 
-    @media (min-width: 320px) and (max-width: 372px) {
+    @media (min-width: 180px) and (max-width: 372px) {
       .contact-page-anchor {
         text-decoration: none;
         color: #4b4b4be0;
-        font-size: 14px;
+        font-size: 13.5px;
         margin-left: -1.7rem;
       }
 
