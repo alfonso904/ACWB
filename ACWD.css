@@ -815,11 +815,6 @@ MOBILE CODE
       max-width: 100%;
     }
     
-    .contact-info-pic {
-      max-width: 2.5rem;
-      max-height: 2.5rem;
-    }
-    
     .contact-info-header {
       margin-top: -.1rem;
       margin-left: 1rem;
@@ -1142,21 +1137,36 @@ MOBILE CODE
       color: #4b4b4be0;
     }
 
-    @media (min-width: 320px) and (max-width: 373px) {
-      .contact-page-anchor {
-        text-decoration: none;
-        color: #4b4b4be0;
-        font-size: 12px;
-      }
-    }
-
-    @media (min-width: 373px) and (max-width: 390px) {
+    @media (min-width: 320px) and (max-width: 372px) {
       .contact-page-anchor {
         text-decoration: none;
         color: #4b4b4be0;
         font-size: 14px;
+        margin-left: -1.7rem;
+      }
+
+      .contact-info-pic {
+        max-width: 1.3rem;
+        max-height: 1.3rem;
+        margin-left: -0.5rem;
       }
     }
+
+    @media (min-width: 373px) and (max-width: 640px) {
+      .contact-page-anchor {
+        text-decoration: none;
+        color: #4b4b4be0;
+        font-size: 14px;
+        margin-left: -0.25rem;
+      }
+
+      .contact-info-pic {
+        max-width: 2.25rem;
+        max-height: 2.25rem;
+      }
+    }
+
+  
     
   }
     
