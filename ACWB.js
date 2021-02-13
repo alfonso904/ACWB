@@ -30,7 +30,7 @@ $(document).ready(function(){
   $('li.question').on(action, function(){
 
     // gets next element
-    // opens .a of selected question
+    // opens .answer of selected question
     $(this).next().slideToggle(speed)
     
     // selects all other answers and slides up any open answer
