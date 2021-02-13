@@ -436,13 +436,10 @@ MOBILE CODE
     }
 
     .faq-total-block {
-      margin-top: 5rem;
-      margin-bottom: -1rem;
-      padding-bottom: 2rem;
-      box-shadow: 2px 4px 20px 3px #2047aa56;
-      border-top: 3px solid #2047aa56;
-      width: 80%;
-      border-radius: 15px;
+      margin-top: 3.5rem;
+      margin-bottom: 3.5rem;
+    
+     
       margin-left: auto;
       margin-right: auto;
     }
@@ -465,8 +462,11 @@ MOBILE CODE
       font-size: 1.1rem;
       color: #2c2c2cea;
       cursor: pointer;
-      margin-top: 1.5rem;
+      margin-top: 1.25rem;
       padding: 1rem;
+      border: 1px solid #2047aa56;
+      border-radius: 10px;
+      
     }
 
     .faq li.answer {
