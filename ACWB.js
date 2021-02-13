@@ -19,3 +19,34 @@ $('.nav li, .nav').on('click', function(){
 });
 
 
+// Accordian Action
+var action = 'click';
+var speed = "100";
+
+
+$(document).ready(function(){
+
+// Question handler
+  $('li.question').on(action, function(){
+
+    // gets next element
+    // opens .a of selected question
+    $(this).next().slideToggle(speed)
+    
+    // selects all other answers and slides up any open answer
+    .siblings('li.answer').slideUp();
+  
+    // Grab img from clicked question
+    var img = $(this).children('img');
+
+    // remove Rotate class from all images except the active
+    $('img').not(img).removeClass('rotate');
+
+    // toggle rotate class
+    img.toggleClass('rotate');
+
+  });
+
+});
+
+
