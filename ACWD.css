@@ -2820,6 +2820,7 @@ a.nav__link:before, a.nav-bottom-anchor:before {
 
 .faq-total-block {
   margin-top: 2rem;
+  margin-bottom: -2rem;
 }
 
 .faq-div-block {
