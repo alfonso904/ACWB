@@ -2865,13 +2865,6 @@ a.nav__link:before, a.nav-bottom-anchor:before {
   -moz-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
-  transition-property: background-color, transform;
-  transition-duration: 0.5s; 
-}
-
-.rotate:before, .rotate:after {
-  transition-property: margin, transform;
-  transition-duration: 0.5s;
 }
 
 .faq-pic {
