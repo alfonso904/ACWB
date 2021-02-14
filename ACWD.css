@@ -2832,7 +2832,6 @@ a.nav__link:before, a.nav-bottom-anchor:before {
   width: 105%;
   list-style-type: none;
   padding-left: 0;
-  padding-top: 1rem;
   padding-bottom: 2rem;
  }
 
@@ -2869,7 +2868,6 @@ a.nav__link:before, a.nav-bottom-anchor:before {
 .faq-pic {
   width: 40rem;
 }
-
 
 .dot2 {
   height: auto;
