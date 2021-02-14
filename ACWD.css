@@ -439,9 +439,9 @@ MOBILE CODE
       margin-top: 7.5rem;
       margin-bottom: 3.5rem;
       padding-bottom: 2rem;
-      box-shadow: 2px 4px 20px 3px #2047aa56;
-      border-top: 3px solid #2047aa56;
-      width: 85%;
+      box-shadow: 2px 4px 20px 3px #2047aa2c;
+      border-bottom: 3px solid #2047aa56;
+      width: 90%;
       border-radius: 15px;
       margin-left: auto;
       margin-right: auto;
@@ -453,11 +453,12 @@ MOBILE CODE
       width: 95%;
       list-style-type: none;
       padding-left: 0;
+      margin-top: -2rem;
      }
 
      .arrow {
-       width: 1rem;
-       height: 1rem;
+       width: 0.9rem;
+       height: 0.9rem;
      }
     
     .faq li.question {
@@ -1107,7 +1108,7 @@ MOBILE CODE
       margin-right: auto;
       margin-bottom: 2.5rem;
       display: block;
-      box-shadow: 2px 4px 20px 3px #2047aa56;
+      box-shadow: 2px 4px 20px 3px #2047aa2c;
       border-top: 3px solid #2047aa56;
       border-radius: 15px;
     }
@@ -1669,8 +1670,8 @@ MOBILE CODE
       margin-top: 7.5rem;
       margin-bottom: 3.5rem;
       padding-bottom: 2rem;
-      box-shadow: 2px 4px 20px 3px #2047aa56;
-      border-top: 3px solid #2047aa56;
+      box-shadow: 2px 4px 20px 3px #2047aa2c;
+      border-bottom: 3px solid #2047aa56;
       width: 85%;
       max-width: 700px;
       border-radius: 15px;
@@ -2334,7 +2335,7 @@ MOBILE CODE
       margin-right: auto;
       margin-bottom: 2.5rem;
       display: block;
-      box-shadow: 2px 4px 20px 3px #2047aa56;
+      box-shadow: 2px 4px 20px 3px #2047aa2c;
       border-top: 3px solid #2047aa56;
       border-radius: 15px;
     }
@@ -2863,6 +2864,13 @@ a.nav__link:before, a.nav-bottom-anchor:before {
   -moz-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
+  transition-property: background-color, transform;
+  transition-duration: 0.5s; 
+}
+
+.rotate:before, .rotate:after {
+  transition-property: margin, transform;
+  transition-duration: 0.5s;
 }
 
 .faq-pic {
@@ -3606,7 +3614,7 @@ z-index: 2000;
   margin-right: auto;
   margin-bottom: 2.5rem;
   display: block;
-  box-shadow: 2px 4px 20px 3px #2047aa56;
+  box-shadow: 2px 4px 20px 3px #2047aa2c;
   border-top: 3px solid #2047aa56;
   border-radius: 15px;
 }
