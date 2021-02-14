@@ -2523,7 +2523,6 @@ a.nav__link:before, a.nav-bottom-anchor:before {
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.125s ease-in-out;
-    
   }
 
 .landing-header {
