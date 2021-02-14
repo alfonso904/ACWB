@@ -1,5 +1,5 @@
 * {
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   font-family: 'Nunito Sans', sans-serif;
   -webkit-font-smoothing: antialiased; 
   -moz-osx-font-smoothing: grayscale;
@@ -1191,7 +1191,7 @@ MOBILE CODE
       .contact-page-anchor {
         text-decoration: none;
         color: #4b4b4be0;
-        font-size: 13.5px;
+        font-size: 14.5px;
         margin-left: -1.7rem;
       }
 
@@ -1206,7 +1206,7 @@ MOBILE CODE
       .contact-page-anchor {
         text-decoration: none;
         color: #4b4b4be0;
-        font-size: 14px;
+        font-size: 15.3px;
         margin-left: -0.25rem;
       }
 
