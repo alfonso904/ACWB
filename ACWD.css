@@ -497,8 +497,8 @@ MOBILE CODE
     }
     
     .dot2mobile {
-      height: 65%;
-      width: 65%;
+      height: 80%;
+      width: 80%;
       max-width: 25rem;
       border-radius: 50%;
       margin-left: auto;
@@ -557,7 +557,7 @@ MOBILE CODE
     }
     
     .rates-block-title {
-      background-image: linear-gradient( #16337c, #2047aa);
+      background-color: #2047aa;
       color: #e9e9e9;
       font-weight: 900;
       padding-top: 1rem;
@@ -608,7 +608,7 @@ MOBILE CODE
     }
     
     .call-us-button2 {
-      background-image: linear-gradient(to bottom right, #16337c, #2047aa);
+      background-color: #2047aa;
       border: none;
       color: #e9e9e9;
       margin-top: .5rem;
@@ -972,7 +972,7 @@ MOBILE CODE
     
     
     .call-us-button3 {
-      background-image: linear-gradient(to bottom right, #16337c, #2047aa);
+      background-color: #2047aa;
       border: none;
       color: #e9e9e9;
       margin-top: .5rem;
@@ -1783,7 +1783,7 @@ MOBILE CODE
     }
     
     .rates-block-title {
-      background-image: linear-gradient( #16337c, #2047aa);
+      background-color: #2047aa;
       color: #e9e9e9;
       font-weight: 900;
       padding-top: 1rem;
@@ -1834,7 +1834,7 @@ MOBILE CODE
     }
     
     .call-us-button2 {
-      background-image: linear-gradient(to bottom right, #16337c, #2047aa);
+      background-color: #2047aa;
       border: none;
       color: #e9e9e9;
       margin-top: .5rem;
@@ -2198,7 +2198,7 @@ MOBILE CODE
     
     
     .call-us-button3 {
-      background-image: linear-gradient(to bottom right, #16337c, #2047aa);
+      background-color: #2047aa;
       border: none;
       color: #e9e9e9;
       margin-top: .5rem;
@@ -2948,7 +2948,7 @@ a.nav__link:before, a.nav-bottom-anchor:before {
 }
 
 .rates-block-title {
-  background-image: linear-gradient( #16337c, #2047aa);
+  background-color: #2047aa;
   color: #e9e9e9;
   font-weight: 900;
   padding-top: 1rem;
@@ -3017,7 +3017,7 @@ a.nav__link:before, a.nav-bottom-anchor:before {
 }
 
 .call-us-button2 {
-  background-image: linear-gradient(to bottom right, #16337c, #2047aa);
+  background-color: #2047aa;
   border: none;
   color: #e9e9e9;
   margin-top: .5rem;
@@ -3422,7 +3422,7 @@ input[type=text], [type=tel], [type=email], textarea {
 
 
 .call-us-button3 {
-  background-image: linear-gradient(to bottom right, #16337c, #2047aa);
+  background-color: #2047aa;
   border: none;
   color: #e9e9e9;
   margin-top: .5rem;
