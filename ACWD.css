@@ -2405,12 +2405,12 @@ MOBILE CODE
       text-decoration-color: none;
     }
     
-    .contact-page-anchor {
+    .contact-page-anchor2 {
       text-decoration: none;
       color: #333333;
     }
     
-    .contact-page-anchor:hover {
+    .contact-page-anchor2:hover {
       text-decoration: underline;
       color: #333333;
     }
@@ -3720,12 +3720,12 @@ CONTACT US PAGE
   z-index: 2000;
 }
 
-.contact-page-anchor {
+.contact-page-anchor2 {
   text-decoration: none;
   color: #333333;
 }
 
-.contact-page-anchor:hover {
+.contact-page-anchor2:hover {
   text-decoration: underline;
   color: #333333;
 }
