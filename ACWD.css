@@ -284,7 +284,7 @@ MOBILE CODE
     
     .what-we-do {
       font-weight: 900;
-      font-size: 1.75rem;
+      font-size: 2.25rem;
       margin: auto;
       padding-top: 3rem;
       padding-bottom: 1.5rem;
@@ -383,7 +383,7 @@ MOBILE CODE
     }
     
     .pricing-text {
-      width: 70%;
+      width: 90%;
       line-height: 1.5rem;
       color: #333333;
       font-weight: 300;
@@ -488,7 +488,7 @@ MOBILE CODE
     
     .what-we-do {
       font-weight: 900;
-      font-size: 1.75rem;
+      font-size: 2rem;
       margin: auto;
       padding-top: 4rem;
       padding-bottom: 1rem;
@@ -539,7 +539,7 @@ MOBILE CODE
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 2rem;
-      font-size: 1.75rem;
+      font-size: 2rem;
       font-weight: 900;
       color: #2c2c2cea;
     }
@@ -814,9 +814,9 @@ MOBILE CODE
     .giving-header, .giving-header2, .giving-header-services {
       color: #2c2c2cea;
       margin-left: 1.5rem;
-      font-size: 1.75rem;
+      font-size: 2.25rem;
       font-weight: 900;
-      width: 80%;
+      width: 93%;
       position: relative;
       z-index: 50000;
     }
@@ -827,7 +827,7 @@ MOBILE CODE
       font-weight: 300;
       font-size: 1.1rem;
       line-height: 1.5rem;
-      width: 80%;
+      width: 90%;
     }
 
     
@@ -836,7 +836,7 @@ MOBILE CODE
     }
     
     .giving-header2, .giving-header-services{
-      width: 50%;
+      width: 70%;
     }
     
     .button-div-3 {
@@ -1195,6 +1195,12 @@ MOBILE CODE
         margin-left: -1.7rem;
       }
 
+      .contact-page-anchor2 {
+        text-decoration: none;
+        color: #333333;
+        font-size: 14.5px;
+      }
+
       .contact-info-pic {
         max-width: 1.3rem;
         max-height: 1.3rem;
@@ -1203,7 +1209,7 @@ MOBILE CODE
     }
 
     @media (min-width: 373px) and (max-width: 640px) {
-      .contact-page-anchor {
+      .contact-page-anchor, .contact-page-anchor2 {
         text-decoration: none;
         color: #333333;
         font-size: 15px;
@@ -1508,7 +1514,7 @@ MOBILE CODE
     
     .what-we-do {
       font-weight: 900;
-      font-size: 1.75rem;
+      font-size: 2.25rem;
       margin: auto;
       padding-top: 3rem;
       padding-bottom: 1.5rem;
@@ -1602,7 +1608,7 @@ MOBILE CODE
     
     .pricing-titles {
       font-weight: 900;
-      font-size: 1.75rem;
+      font-size: 2.25rem;
       margin-top: -0.5rem;
       margin-left: 1.5rem;
       margin-bottom: 1.5rem;
@@ -1714,7 +1720,7 @@ MOBILE CODE
     
     .what-we-do {
       font-weight: 900;
-      font-size: 1.75rem;
+      font-size: 2.25rem;
       margin: auto;
       padding-top: 4rem;
       padding-bottom: 1rem;
@@ -1765,7 +1771,7 @@ MOBILE CODE
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 2rem;
-      font-size: 1.75rem;
+      font-size: 2.25rem;
       font-weight: 900;
       color: #2c2c2cea;
     }
@@ -1992,14 +1998,14 @@ MOBILE CODE
     
     .main-landing-page-about-us {
       background-image: linear-gradient(rgb(17, 39, 95), #173685);
-      margin-top: -1.19rem;
+      margin-top: -1.45rem;
       height: 10rem; 
     }
     
     
     .about-us-header {
       font-weight: 900;
-      font-size: 1.75rem;
+      font-size: 2.25rem;
       padding-top: 2.5rem;
       padding-bottom: 1rem;
       display: flex;
@@ -2036,7 +2042,7 @@ MOBILE CODE
     .giving-header, .giving-header2, .giving-header-services {
       color: #2c2c2cea;
       margin-left: 1.5rem;
-      font-size: 1.75rem;
+      font-size: 2.25rem;
       font-weight: 900;
       width: 80%;
       position: relative;
@@ -2139,7 +2145,7 @@ MOBILE CODE
     
     .form-name {
       font-weight: 900;
-      font-size: 1.75rem;
+      font-size: 2.25rem;
       margin-top: 1.5rem;
       margin-bottom: 1.5rem;
       display: flex;
@@ -2606,7 +2612,7 @@ a.nav__link:before, a.nav-bottom-anchor:before {
 
 .what-we-do {
   font-weight: 900;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   margin: auto;
   padding-top: 8rem;
   padding-bottom: 1.5rem;
@@ -2748,11 +2754,11 @@ a.nav__link:before, a.nav-bottom-anchor:before {
 
 .pricing-titles {
   font-weight: 900;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   margin-top: -0.5rem;
   margin-left: 1.5rem;
   margin-bottom: 1.5rem;
-  width: 90%;
+  width: 100%;
 }
 
 
@@ -2861,6 +2867,10 @@ a.nav__link:before, a.nav-bottom-anchor:before {
   width: 40rem;
 }
 
+li.question:hover {
+  color: #2047aa;
+}
+
 .dot2 {
   height: auto;
   width: 35rem;
@@ -2905,7 +2915,7 @@ a.nav__link:before, a.nav-bottom-anchor:before {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   font-weight: 900;
   color: #2c2c2cea;
 }
@@ -3181,7 +3191,7 @@ ABOUT US PAGE
 
 .about-us-header {
   font-weight: 900;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   padding-bottom: 1rem;
   margin-top: -16rem;
   display: flex;
@@ -3223,9 +3233,9 @@ ABOUT US PAGE
 
 .giving-header {
   color: #2c2c2cea;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   font-weight: 900;
-  width: 80%;
+  width: 90%;
   margin-left: 3rem;
   margin-top: 8rem;
   position: relative;
@@ -3234,7 +3244,7 @@ ABOUT US PAGE
 
 .giving-header2 {
   color: #2c2c2cea;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   font-weight: 900;
   margin-left: auto;
   margin-right: auto;
@@ -3583,7 +3593,7 @@ z-index: 2000;
 
 .giving-header-services {
 color: #2c2c2cea;
-font-size: 2.25rem;
+font-size: 2.5rem;
 font-weight: 900;
 width: 100%;
 position: relative;
