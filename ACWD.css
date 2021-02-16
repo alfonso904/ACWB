@@ -284,7 +284,7 @@ MOBILE CODE
     
     .what-we-do {
       font-weight: 900;
-      font-size: 2rem;
+      font-size: 2.25rem;
       margin: auto;
       padding-top: 3rem;
       padding-bottom: 1.5rem;
@@ -760,7 +760,7 @@ MOBILE CODE
     
     .circle-div-about {
      position: relative;
-     top: -41.2rem;
+     top: -40.2rem;
      z-index: 0;
      border-radius: 50%;
      width: 100%;
@@ -771,13 +771,13 @@ MOBILE CODE
     .main-landing-page-about-us {
       background-image: linear-gradient(rgb(17, 39, 95), #173685);
       margin-top: -1.55rem;
-      height: 10rem; 
+      height: 11rem; 
     }
     
     
     .about-us-header {
       font-weight: 900;
-      font-size: 2rem;
+      font-size: 2.25rem;
       padding-top: 2.5rem;
       padding-bottom: 1rem;
       display: flex;
@@ -814,7 +814,7 @@ MOBILE CODE
     .giving-header, .giving-header2, .giving-header-services {
       color: #2c2c2cea;
       margin-left: 1.5rem;
-      font-size: 2rem;
+      font-size: 2.25rem;
       font-weight: 900;
       width: 93%;
       position: relative;
