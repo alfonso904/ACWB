@@ -2461,7 +2461,7 @@ html {
 }
   
 #page-wrap {
-  width: 1000px;
+  width: 1050px;
   margin: auto;
 }
 
@@ -2578,11 +2578,10 @@ a.nav__link:before, a.nav-bottom-anchor:before {
 }
 
 .computer-desktop {
-  margin-left: 23rem;
+  margin-left: 24rem;
   margin-top: -20rem;
   max-width: 40rem;
   width: 70%;
-  position: absolute;
   margin-right: 1.5rem;
 }
 
