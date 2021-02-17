@@ -2534,7 +2534,7 @@ a.nav__link:before, a.nav-bottom-anchor:before {
 .landing-header {
   color: #DBDBDB;
   font-weight: 200;
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-left: 1.5rem;
   margin-right: 6rem;
   padding-top: 1.5rem;
@@ -2578,8 +2578,8 @@ a.nav__link:before, a.nav-bottom-anchor:before {
 }
 
 .computer-desktop {
-  margin-left: 22rem;
-  margin-top: -17rem;
+  margin-left: 23rem;
+  margin-top: -20rem;
   max-width: 40rem;
   width: 70%;
   position: absolute;
@@ -2612,7 +2612,7 @@ a.nav__link:before, a.nav-bottom-anchor:before {
 
 .what-we-do {
   font-weight: 900;
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   margin: auto;
   padding-top: 8rem;
   padding-bottom: 1.5rem;
@@ -2758,7 +2758,7 @@ a.nav__link:before, a.nav-bottom-anchor:before {
   margin-top: -0.5rem;
   margin-left: 1.5rem;
   margin-bottom: 1.5rem;
-  width: 100%;
+  width: 95%;
 }
 
 
@@ -2915,7 +2915,7 @@ li.question:hover {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   font-weight: 900;
   color: #2c2c2cea;
 }
@@ -3191,7 +3191,7 @@ ABOUT US PAGE
 
 .about-us-header {
   font-weight: 900;
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   padding-bottom: 1rem;
   margin-top: -16rem;
   display: flex;
@@ -3233,9 +3233,9 @@ ABOUT US PAGE
 
 .giving-header {
   color: #2c2c2cea;
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   font-weight: 900;
-  width: 90%;
+  width: 95%;
   margin-left: 3rem;
   margin-top: 8rem;
   position: relative;
@@ -3244,7 +3244,7 @@ ABOUT US PAGE
 
 .giving-header2 {
   color: #2c2c2cea;
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   font-weight: 900;
   margin-left: auto;
   margin-right: auto;
@@ -3593,7 +3593,7 @@ z-index: 2000;
 
 .giving-header-services {
 color: #2c2c2cea;
-font-size: 2.5rem;
+font-size: 2.75rem;
 font-weight: 900;
 width: 100%;
 position: relative;
@@ -3720,12 +3720,12 @@ CONTACT US PAGE
   z-index: 2000;
 }
 
-.contact-page-anchor2 {
+.contact-page-anchor2, .contact-page-anchor {
   text-decoration: none;
   color: #333333;
 }
 
-.contact-page-anchor2:hover {
+.contact-page-anchor2:hover, .contact-page-anchor:hover {
   text-decoration: underline;
   color: #333333;
 }
