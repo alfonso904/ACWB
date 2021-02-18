@@ -479,6 +479,7 @@ MOBILE CODE
       -moz-transform: rotate(90deg);
       -webkit-transform: rotate(90deg);
       transform: rotate(90deg);
+      transition: 0.250s;
     }
     
     .who-we-are-block {
@@ -1712,6 +1713,7 @@ MOBILE CODE
       -moz-transform: rotate(90deg);
       -webkit-transform: rotate(90deg);
       transform: rotate(90deg);
+      transition: 0.250s;
     }
     
     .who-we-are-block {
