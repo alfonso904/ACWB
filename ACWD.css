@@ -2860,6 +2860,7 @@ a.nav__link:before, a.nav-bottom-anchor:before {
   -moz-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
+  transition: 0.250s;
 }
 
 .faq-pic {
@@ -2868,6 +2869,8 @@ a.nav__link:before, a.nav-bottom-anchor:before {
 
 li.question:hover {
   color: #2047aa;
+  transition: 0.250s;
+  transform: scale(1.05)
 }
 
 .dot2 {

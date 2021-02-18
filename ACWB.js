@@ -45,6 +45,7 @@ $(document).ready(function(){
     // toggle rotate class
     img.toggleClass('rotate');
 
+
   });
 
 });
