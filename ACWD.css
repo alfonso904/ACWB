@@ -3046,7 +3046,7 @@ li.question:hover {
 
 
 .call-us-button2:hover {
-  background-image: linear-gradient(#6e6e6e, #6e6e6e);
+  background-color: rgb(17, 39, 95);
   transition: 0.5s
 }
 
@@ -3450,7 +3450,7 @@ input[type=text], [type=tel], [type=email], textarea {
 }
 
 .call-us-button3:hover {
-  background-image: linear-gradient(#6e6e6e, #6e6e6e);
+  background-color: rgb(17, 39, 95);
   transition: 0.5s;
 }
 
