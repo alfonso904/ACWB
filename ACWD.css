@@ -2468,7 +2468,7 @@ html {
 }
 
 #page-wrap-body {
-  max-width: 1150px;
+  max-width: 1250px;
   margin: auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -2723,7 +2723,7 @@ a.nav__link:before, a.nav-bottom-anchor:before {
 
 .money-icon {
   margin-top: 8.5rem;
-  width: 35rem;
+  width: 36rem;
 }
 
 .pricing-block {
@@ -3548,7 +3548,7 @@ z-index: 2000;
 }
 
 .about-me-page-pic-services2 {
-  width: 38rem !important;
+  width: 40rem !important;
   margin-left: 1.5rem;
   margin-top: 3rem;
 }
